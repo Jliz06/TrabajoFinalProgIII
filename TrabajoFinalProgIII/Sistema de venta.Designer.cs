@@ -34,9 +34,9 @@
             this.facturacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.agregarClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.agregarProductoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.label1 = new System.Windows.Forms.Label();
             this.fACTURASPENDIENTESToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fACTURASToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -44,9 +44,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(60, 89);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 27);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(372, 343);
+            this.pictureBox1.Size = new System.Drawing.Size(553, 454);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -70,14 +70,14 @@
             // facturacionToolStripMenuItem
             // 
             this.facturacionToolStripMenuItem.Name = "facturacionToolStripMenuItem";
-            this.facturacionToolStripMenuItem.Size = new System.Drawing.Size(124, 20);
-            this.facturacionToolStripMenuItem.Text = "AGREGAR CLIENTES";
+            this.facturacionToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
+            this.facturacionToolStripMenuItem.Text = "CLIENTES";
             // 
             // agregarClienteToolStripMenuItem
             // 
             this.agregarClienteToolStripMenuItem.Name = "agregarClienteToolStripMenuItem";
-            this.agregarClienteToolStripMenuItem.Size = new System.Drawing.Size(140, 20);
-            this.agregarClienteToolStripMenuItem.Text = "AÑADIR PRODUCTOS";
+            this.agregarClienteToolStripMenuItem.Size = new System.Drawing.Size(91, 20);
+            this.agregarClienteToolStripMenuItem.Text = "PRODUCTOS";
             this.agregarClienteToolStripMenuItem.Click += new System.EventHandler(this.agregarClienteToolStripMenuItem_Click);
             // 
             // agregarProductoToolStripMenuItem
@@ -85,16 +85,6 @@
             this.agregarProductoToolStripMenuItem.Name = "agregarProductoToolStripMenuItem";
             this.agregarProductoToolStripMenuItem.Size = new System.Drawing.Size(100, 20);
             this.agregarProductoToolStripMenuItem.Text = "FACTURACION";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(147, 45);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(198, 31);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "HELADERIA JJE";
             // 
             // fACTURASPENDIENTESToolStripMenuItem
             // 
@@ -108,8 +98,18 @@
             // fACTURASToolStripMenuItem
             // 
             this.fACTURASToolStripMenuItem.Name = "fACTURASToolStripMenuItem";
-            this.fACTURASToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.fACTURASToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.fACTURASToolStripMenuItem.Text = "FACTURAS";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(147, 45);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(198, 31);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "HELADERIA JJE";
             // 
             // Sistema_de_venta
             // 

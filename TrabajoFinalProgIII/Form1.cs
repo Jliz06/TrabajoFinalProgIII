@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using System.Data.Sql;
 
 namespace TrabajoFinalProgIII
 {
@@ -40,6 +42,52 @@ namespace TrabajoFinalProgIII
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnAcceder_Click(object sender, EventArgs e)
+        {
+
+                SqlConnection conn = new SqlConnection(@"Data Source = EVENSON\SQLEXPRESS; Initial Catalog = HeladeriaJJE; Integrated Security = True");
+            String usuario, contraseña;
+
+            usuario = txtBoxUsuario.Text;
+            contraseña = txtBoxContraseña.Text;
+            try
+            {
+                conn.Open();
+                String query = "Select * from [Usuarios] where NombreUsuario = '" + usuario + "' and  Contraseña = '" + contraseña + "'";
+                SqlDataAdapter sda = new SqlDataAdapter(query, conn);
+
+                DataTable dt = new DataTable();
+
+                sda.Fill(dt);
+
+                if (dt.Rows.Count > 0)
+                {
+                    usuario = txtBoxUsuario.Text;
+                    contraseña = txtBoxContraseña.Text;
+
+                    Sistema_de_venta inicio = new Sistema_de_venta();
+                    inicio.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Nombre de usuario o contraseña no válidos");
+                    txtBoxUsuario.Clear();
+                    txtBoxContraseña.Clear();
+
+                    txtBoxUsuario.Focus();
+                }
+            }
+            catch (Exception es)
+            {
+                MessageBox.Show(es.Message);
+            }
+            finally
+            {
+                conn.Close();
+            }
         }
     }
 }

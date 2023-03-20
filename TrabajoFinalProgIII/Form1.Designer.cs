@@ -32,11 +32,11 @@
             this.Login = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtBoxUsuario = new System.Windows.Forms.TextBox();
+            this.txtBoxContraseña = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnAcceder = new System.Windows.Forms.Button();
+            this.btnLimpiar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -73,21 +73,21 @@
             this.label3.Text = "Contraseña";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // textBox1
+            // txtBoxUsuario
             // 
-            this.textBox1.Location = new System.Drawing.Point(294, 112);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(177, 28);
-            this.textBox1.TabIndex = 4;
+            this.txtBoxUsuario.Location = new System.Drawing.Point(294, 112);
+            this.txtBoxUsuario.Multiline = true;
+            this.txtBoxUsuario.Name = "txtBoxUsuario";
+            this.txtBoxUsuario.Size = new System.Drawing.Size(177, 28);
+            this.txtBoxUsuario.TabIndex = 4;
             // 
-            // textBox2
+            // txtBoxContraseña
             // 
-            this.textBox2.Location = new System.Drawing.Point(294, 184);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(177, 28);
-            this.textBox2.TabIndex = 5;
+            this.txtBoxContraseña.Location = new System.Drawing.Point(294, 184);
+            this.txtBoxContraseña.Multiline = true;
+            this.txtBoxContraseña.Name = "txtBoxContraseña";
+            this.txtBoxContraseña.Size = new System.Drawing.Size(177, 28);
+            this.txtBoxContraseña.TabIndex = 5;
             // 
             // pictureBox1
             // 
@@ -101,27 +101,28 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // button2
+            // btnAcceder
             // 
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button2.Location = new System.Drawing.Point(294, 249);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(79, 25);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Acceder";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnAcceder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnAcceder.Location = new System.Drawing.Point(294, 249);
+            this.btnAcceder.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAcceder.Name = "btnAcceder";
+            this.btnAcceder.Size = new System.Drawing.Size(79, 25);
+            this.btnAcceder.TabIndex = 7;
+            this.btnAcceder.Text = "Acceder";
+            this.btnAcceder.UseVisualStyleBackColor = true;
+            this.btnAcceder.Click += new System.EventHandler(this.btnAcceder_Click);
             // 
-            // button1
+            // btnLimpiar
             // 
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button1.Location = new System.Drawing.Point(392, 249);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(79, 25);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Limpiar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnLimpiar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnLimpiar.Location = new System.Drawing.Point(392, 249);
+            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(79, 25);
+            this.btnLimpiar.TabIndex = 8;
+            this.btnLimpiar.Text = "Limpiar";
+            this.btnLimpiar.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -129,10 +130,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(480, 280);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btnLimpiar);
+            this.Controls.Add(this.btnAcceder);
+            this.Controls.Add(this.txtBoxContraseña);
+            this.Controls.Add(this.txtBoxUsuario);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Login);
@@ -153,11 +154,11 @@
         private System.Windows.Forms.Label Login;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtBoxUsuario;
+        private System.Windows.Forms.TextBox txtBoxContraseña;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnAcceder;
+        private System.Windows.Forms.Button btnLimpiar;
     }
 }
 

@@ -76,6 +76,11 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="HeladeriaJJEDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HeladeriaJJEDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sistema de venta.cs">
@@ -111,6 +116,17 @@
     <EmbeddedResource Include="Sistema de venta.resx">
       <DependentUpon>Sistema de venta.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="HeladeriaJJEDataSet.xsc">
+      <DependentUpon>HeladeriaJJEDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HeladeriaJJEDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HeladeriaJJEDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HeladeriaJJEDataSet.xss">
+      <DependentUpon>HeladeriaJJEDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
