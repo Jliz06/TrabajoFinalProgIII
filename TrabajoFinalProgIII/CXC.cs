@@ -12,6 +12,7 @@ namespace TrabajoFinalProgIII
 {
     public partial class CXC : Form
     {
+        //
         public CXC()
         {
             InitializeComponent();
