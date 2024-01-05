@@ -32,15 +32,15 @@
             this.Login = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtBoxUsuario = new System.Windows.Forms.TextBox();
-            this.txtBoxContraseña = new System.Windows.Forms.TextBox();
+            this.txtBoxUsuariolg = new System.Windows.Forms.TextBox();
+            this.txtBoxContrasenalg = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnAcceder = new System.Windows.Forms.Button();
-            this.btnLimpiar = new System.Windows.Forms.Button();
+            this.btnAccederlg = new System.Windows.Forms.Button();
+            this.btnLimpiarlg = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnregistrarnu = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -79,21 +79,21 @@
             this.label3.TabIndex = 2;
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // txtBoxUsuario
+            // txtBoxUsuariolg
             // 
-            this.txtBoxUsuario.Location = new System.Drawing.Point(226, 129);
-            this.txtBoxUsuario.Multiline = true;
-            this.txtBoxUsuario.Name = "txtBoxUsuario";
-            this.txtBoxUsuario.Size = new System.Drawing.Size(249, 28);
-            this.txtBoxUsuario.TabIndex = 4;
+            this.txtBoxUsuariolg.Location = new System.Drawing.Point(226, 129);
+            this.txtBoxUsuariolg.Multiline = true;
+            this.txtBoxUsuariolg.Name = "txtBoxUsuariolg";
+            this.txtBoxUsuariolg.Size = new System.Drawing.Size(249, 28);
+            this.txtBoxUsuariolg.TabIndex = 4;
             // 
-            // txtBoxContraseña
+            // txtBoxContrasenalg
             // 
-            this.txtBoxContraseña.Location = new System.Drawing.Point(226, 216);
-            this.txtBoxContraseña.Multiline = true;
-            this.txtBoxContraseña.Name = "txtBoxContraseña";
-            this.txtBoxContraseña.Size = new System.Drawing.Size(249, 28);
-            this.txtBoxContraseña.TabIndex = 5;
+            this.txtBoxContrasenalg.Location = new System.Drawing.Point(226, 216);
+            this.txtBoxContrasenalg.Multiline = true;
+            this.txtBoxContrasenalg.Name = "txtBoxContrasenalg";
+            this.txtBoxContrasenalg.Size = new System.Drawing.Size(249, 28);
+            this.txtBoxContrasenalg.TabIndex = 5;
             // 
             // pictureBox1
             // 
@@ -107,36 +107,36 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // btnAcceder
+            // btnAccederlg
             // 
-            this.btnAcceder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnAcceder.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAcceder.Image = ((System.Drawing.Image)(resources.GetObject("btnAcceder.Image")));
-            this.btnAcceder.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnAcceder.Location = new System.Drawing.Point(226, 249);
-            this.btnAcceder.Margin = new System.Windows.Forms.Padding(2);
-            this.btnAcceder.Name = "btnAcceder";
-            this.btnAcceder.Size = new System.Drawing.Size(109, 40);
-            this.btnAcceder.TabIndex = 7;
-            this.btnAcceder.Text = "Acceder";
-            this.btnAcceder.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAcceder.UseVisualStyleBackColor = true;
-            this.btnAcceder.Click += new System.EventHandler(this.btnAcceder_Click);
+            this.btnAccederlg.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnAccederlg.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAccederlg.Image = ((System.Drawing.Image)(resources.GetObject("btnAccederlg.Image")));
+            this.btnAccederlg.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnAccederlg.Location = new System.Drawing.Point(226, 249);
+            this.btnAccederlg.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAccederlg.Name = "btnAccederlg";
+            this.btnAccederlg.Size = new System.Drawing.Size(109, 40);
+            this.btnAccederlg.TabIndex = 7;
+            this.btnAccederlg.Text = "Acceder";
+            this.btnAccederlg.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAccederlg.UseVisualStyleBackColor = true;
+            this.btnAccederlg.Click += new System.EventHandler(this.btnAcceder_Click);
             // 
-            // btnLimpiar
+            // btnLimpiarlg
             // 
-            this.btnLimpiar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnLimpiar.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpiar.Image = ((System.Drawing.Image)(resources.GetObject("btnLimpiar.Image")));
-            this.btnLimpiar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnLimpiar.Location = new System.Drawing.Point(578, 249);
-            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(105, 40);
-            this.btnLimpiar.TabIndex = 8;
-            this.btnLimpiar.Text = "Limpiar";
-            this.btnLimpiar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiarlg.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnLimpiarlg.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpiarlg.Image = ((System.Drawing.Image)(resources.GetObject("btnLimpiarlg.Image")));
+            this.btnLimpiarlg.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnLimpiarlg.Location = new System.Drawing.Point(578, 249);
+            this.btnLimpiarlg.Margin = new System.Windows.Forms.Padding(2);
+            this.btnLimpiarlg.Name = "btnLimpiarlg";
+            this.btnLimpiarlg.Size = new System.Drawing.Size(105, 40);
+            this.btnLimpiarlg.TabIndex = 8;
+            this.btnLimpiarlg.Text = "Limpiar";
+            this.btnLimpiarlg.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLimpiarlg.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
@@ -176,19 +176,20 @@
             this.label5.TabIndex = 10;
             this.label5.Text = "No estas registrado?";
             // 
-            // button2
+            // btnregistrarnu
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(541, 157);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(134, 40);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "Registrarme";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnregistrarnu.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnregistrarnu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnregistrarnu.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnregistrarnu.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnregistrarnu.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnregistrarnu.Location = new System.Drawing.Point(541, 157);
+            this.btnregistrarnu.Margin = new System.Windows.Forms.Padding(2);
+            this.btnregistrarnu.Name = "btnregistrarnu";
+            this.btnregistrarnu.Size = new System.Drawing.Size(134, 40);
+            this.btnregistrarnu.TabIndex = 11;
+            this.btnregistrarnu.Text = "Registrarme";
+            this.btnregistrarnu.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
@@ -222,13 +223,13 @@
             this.ClientSize = new System.Drawing.Size(698, 300);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnregistrarnu);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.btnLimpiar);
-            this.Controls.Add(this.btnAcceder);
-            this.Controls.Add(this.txtBoxContraseña);
-            this.Controls.Add(this.txtBoxUsuario);
+            this.Controls.Add(this.btnLimpiarlg);
+            this.Controls.Add(this.btnAccederlg);
+            this.Controls.Add(this.txtBoxContrasenalg);
+            this.Controls.Add(this.txtBoxUsuariolg);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Login);
@@ -251,15 +252,15 @@
         private System.Windows.Forms.Label Login;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtBoxUsuario;
-        private System.Windows.Forms.TextBox txtBoxContraseña;
+        private System.Windows.Forms.TextBox txtBoxUsuariolg;
+        private System.Windows.Forms.TextBox txtBoxContrasenalg;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button btnAcceder;
-        private System.Windows.Forms.Button btnLimpiar;
+        private System.Windows.Forms.Button btnAccederlg;
+        private System.Windows.Forms.Button btnLimpiarlg;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnregistrarnu;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
     }

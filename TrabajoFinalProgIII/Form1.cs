@@ -50,8 +50,8 @@ namespace TrabajoFinalProgIII
                 SqlConnection conn = new SqlConnection(@"Data Source = EVENSON\SQLEXPRESS; Initial Catalog = HeladeriaJJE; Integrated Security = True");
             String usuario, contraseña;
 
-            usuario = txtBoxUsuario.Text;
-            contraseña = txtBoxContraseña.Text;
+            usuario = txtBoxUsuariolg.Text;
+            contraseña = txtBoxContrasenalg.Text;
             try
             {
                 conn.Open();
@@ -64,8 +64,8 @@ namespace TrabajoFinalProgIII
 
                 if (dt.Rows.Count > 0)
                 {
-                    usuario = txtBoxUsuario.Text;
-                    contraseña = txtBoxContraseña.Text;
+                    usuario = txtBoxUsuariolg.Text;
+                    contraseña = txtBoxContrasenalg.Text;
 
                     Sistema_de_venta inicio = new Sistema_de_venta();
                     inicio.Show();
@@ -74,10 +74,10 @@ namespace TrabajoFinalProgIII
                 else
                 {
                     MessageBox.Show("Nombre de usuario o contraseña no válidos");
-                    txtBoxUsuario.Clear();
-                    txtBoxContraseña.Clear();
+                    txtBoxUsuariolg.Clear();
+                    txtBoxContrasenalg.Clear();
 
-                    txtBoxUsuario.Focus();
+                    txtBoxUsuariolg.Focus();
                 }
             }
             catch (Exception es)
