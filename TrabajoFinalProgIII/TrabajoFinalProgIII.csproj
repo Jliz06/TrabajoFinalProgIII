@@ -52,12 +52,6 @@
     <Compile Include="AñadirProducto.Designer.cs">
       <DependentUpon>AñadirProducto.cs</DependentUpon>
     </Compile>
-    <Compile Include="CXC.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CXC.Designer.cs">
-      <DependentUpon>CXC.cs</DependentUpon>
-    </Compile>
     <Compile Include="Facturación.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,9 +97,6 @@
     </Compile>
     <EmbeddedResource Include="AñadirProducto.resx">
       <DependentUpon>AñadirProducto.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CXC.resx">
-      <DependentUpon>CXC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Facturación.resx">
       <DependentUpon>Facturación.cs</DependentUpon>
