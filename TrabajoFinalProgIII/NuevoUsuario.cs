@@ -16,5 +16,15 @@ namespace TrabajoFinalProgIII
         {
             InitializeComponent();
         }
+
+        private void btnhomenu_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnclosenu_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
