@@ -34,7 +34,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtBoxUsuariolg = new System.Windows.Forms.TextBox();
             this.txtBoxContrasenalg = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnAccederlg = new System.Windows.Forms.Button();
             this.btnLimpiarlg = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -43,8 +42,9 @@
             this.btnregistrarnu = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // Login
@@ -52,7 +52,7 @@
             this.Login.AutoSize = true;
             this.Login.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Login.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Login.Location = new System.Drawing.Point(336, 44);
+            this.Login.Location = new System.Drawing.Point(47, 96);
             this.Login.Name = "Login";
             this.Login.Size = new System.Drawing.Size(110, 44);
             this.Login.TabIndex = 0;
@@ -95,18 +95,6 @@
             this.txtBoxContrasenalg.Size = new System.Drawing.Size(249, 28);
             this.txtBoxContrasenalg.TabIndex = 5;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 54);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(183, 217);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // btnAccederlg
             // 
             this.btnAccederlg.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
@@ -129,7 +117,7 @@
             this.btnLimpiarlg.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLimpiarlg.Image = ((System.Drawing.Image)(resources.GetObject("btnLimpiarlg.Image")));
             this.btnLimpiarlg.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnLimpiarlg.Location = new System.Drawing.Point(578, 249);
+            this.btnLimpiarlg.Location = new System.Drawing.Point(370, 249);
             this.btnLimpiarlg.Margin = new System.Windows.Forms.Padding(2);
             this.btnLimpiarlg.Name = "btnLimpiarlg";
             this.btnLimpiarlg.Size = new System.Drawing.Size(105, 40);
@@ -146,7 +134,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(698, 37);
+            this.panel1.Size = new System.Drawing.Size(503, 37);
             this.panel1.TabIndex = 9;
             // 
             // button1
@@ -157,7 +145,7 @@
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(611, 2);
+            this.button1.Location = new System.Drawing.Point(412, 4);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(79, 33);
@@ -170,7 +158,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.IndianRed;
-            this.label5.Location = new System.Drawing.Point(517, 126);
+            this.label5.Location = new System.Drawing.Point(229, 306);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(255, 29);
@@ -184,7 +172,7 @@
             this.btnregistrarnu.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnregistrarnu.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnregistrarnu.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnregistrarnu.Location = new System.Drawing.Point(541, 157);
+            this.btnregistrarnu.Location = new System.Drawing.Point(253, 337);
             this.btnregistrarnu.Margin = new System.Windows.Forms.Padding(2);
             this.btnregistrarnu.Name = "btnregistrarnu";
             this.btnregistrarnu.Size = new System.Drawing.Size(134, 40);
@@ -216,12 +204,24 @@
             this.label4.TabIndex = 13;
             this.label4.Text = "Ingrese Su Contrasena";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(11, 153);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(183, 217);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 14;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(698, 300);
+            this.ClientSize = new System.Drawing.Size(503, 416);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnregistrarnu);
@@ -234,15 +234,14 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Login);
-            this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -255,7 +254,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtBoxUsuariolg;
         private System.Windows.Forms.TextBox txtBoxContrasenalg;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnAccederlg;
         private System.Windows.Forms.Button btnLimpiarlg;
         private System.Windows.Forms.Panel panel1;
@@ -264,6 +262,7 @@
         private System.Windows.Forms.Button btnregistrarnu;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

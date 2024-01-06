@@ -48,7 +48,7 @@ namespace TrabajoFinalProgIII
             SubMenuCliente.Visible = true;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnAgregarCliente_Click(object sender, EventArgs e)
         {
             Form Form2 = new Form2();
             Form2.Show();
@@ -64,6 +64,12 @@ namespace TrabajoFinalProgIII
         {
             Form NuevoUsuario = new NuevoUsuario();
             NuevoUsuario.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form LoginCliente = new LoginCliente();
+            LoginCliente.Show();
         }
     }
 }

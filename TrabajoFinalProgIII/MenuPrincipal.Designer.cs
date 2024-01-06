@@ -32,32 +32,32 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuPrincipal));
             this.panel1 = new System.Windows.Forms.Panel();
             this.btncerrarMenu = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.SubmenuReportes = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.btnRepVehiculoMenu = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.btnReportesMenu = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.btnEmpleadoMenu = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.btnClientesMenu = new System.Windows.Forms.Button();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.btnConsultasMenu = new System.Windows.Forms.Button();
             this.lblhora = new System.Windows.Forms.Label();
             this.lblfecha = new System.Windows.Forms.Label();
             this.horafecha = new System.Windows.Forms.Timer(this.components);
             this.SubMenuEmpleado = new System.Windows.Forms.Panel();
-            this.btEntrarMenu = new System.Windows.Forms.Button();
             this.btnRegistroMenu = new System.Windows.Forms.Button();
+            this.btEntrarMenu = new System.Windows.Forms.Button();
             this.SubMenuCliente = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnAgregarCliente = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.btnReportesMenu = new System.Windows.Forms.Button();
+            this.btnEmpleadoMenu = new System.Windows.Forms.Button();
+            this.btnClientesMenu = new System.Windows.Forms.Button();
+            this.btnConsultasMenu = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SubmenuReportes.SuspendLayout();
             this.SubMenuEmpleado.SuspendLayout();
             this.SubMenuCliente.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -86,16 +86,6 @@
             this.btncerrarMenu.TabIndex = 0;
             this.btncerrarMenu.UseVisualStyleBackColor = false;
             this.btncerrarMenu.Click += new System.EventHandler(this.btncerrarMenu_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::TrabajoFinalProgIII.Properties.Resources.Logo_progr;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 34);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(220, 129);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 11;
-            this.pictureBox1.TabStop = false;
             // 
             // SubmenuReportes
             // 
@@ -144,25 +134,6 @@
             this.panel7.Size = new System.Drawing.Size(8, 49);
             this.panel7.TabIndex = 39;
             // 
-            // btnReportesMenu
-            // 
-            this.btnReportesMenu.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.btnReportesMenu.FlatAppearance.BorderSize = 0;
-            this.btnReportesMenu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.btnReportesMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReportesMenu.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReportesMenu.ForeColor = System.Drawing.Color.White;
-            this.btnReportesMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnReportesMenu.Image")));
-            this.btnReportesMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReportesMenu.Location = new System.Drawing.Point(13, 348);
-            this.btnReportesMenu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnReportesMenu.Name = "btnReportesMenu";
-            this.btnReportesMenu.Size = new System.Drawing.Size(326, 49);
-            this.btnReportesMenu.TabIndex = 38;
-            this.btnReportesMenu.Text = "Reportes";
-            this.btnReportesMenu.UseVisualStyleBackColor = false;
-            this.btnReportesMenu.Click += new System.EventHandler(this.btnReportesMenu_Click_1);
-            // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.IndianRed;
@@ -171,25 +142,6 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(8, 49);
             this.panel5.TabIndex = 37;
-            // 
-            // btnEmpleadoMenu
-            // 
-            this.btnEmpleadoMenu.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.btnEmpleadoMenu.FlatAppearance.BorderSize = 0;
-            this.btnEmpleadoMenu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.btnEmpleadoMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEmpleadoMenu.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEmpleadoMenu.ForeColor = System.Drawing.Color.White;
-            this.btnEmpleadoMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnEmpleadoMenu.Image")));
-            this.btnEmpleadoMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEmpleadoMenu.Location = new System.Drawing.Point(13, 289);
-            this.btnEmpleadoMenu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnEmpleadoMenu.Name = "btnEmpleadoMenu";
-            this.btnEmpleadoMenu.Size = new System.Drawing.Size(326, 49);
-            this.btnEmpleadoMenu.TabIndex = 36;
-            this.btnEmpleadoMenu.Text = "Empleados";
-            this.btnEmpleadoMenu.UseVisualStyleBackColor = false;
-            this.btnEmpleadoMenu.Click += new System.EventHandler(this.btnEmpleadoMenu_Click);
             // 
             // panel3
             // 
@@ -200,25 +152,6 @@
             this.panel3.Size = new System.Drawing.Size(8, 49);
             this.panel3.TabIndex = 35;
             // 
-            // btnClientesMenu
-            // 
-            this.btnClientesMenu.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.btnClientesMenu.FlatAppearance.BorderSize = 0;
-            this.btnClientesMenu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.btnClientesMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClientesMenu.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClientesMenu.ForeColor = System.Drawing.Color.White;
-            this.btnClientesMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnClientesMenu.Image")));
-            this.btnClientesMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClientesMenu.Location = new System.Drawing.Point(13, 230);
-            this.btnClientesMenu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnClientesMenu.Name = "btnClientesMenu";
-            this.btnClientesMenu.Size = new System.Drawing.Size(326, 49);
-            this.btnClientesMenu.TabIndex = 34;
-            this.btnClientesMenu.Text = "Clientes";
-            this.btnClientesMenu.UseVisualStyleBackColor = false;
-            this.btnClientesMenu.Click += new System.EventHandler(this.btnClientesMenu_Click);
-            // 
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.IndianRed;
@@ -227,24 +160,6 @@
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(8, 49);
             this.panel8.TabIndex = 33;
-            // 
-            // btnConsultasMenu
-            // 
-            this.btnConsultasMenu.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.btnConsultasMenu.FlatAppearance.BorderSize = 0;
-            this.btnConsultasMenu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.btnConsultasMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConsultasMenu.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsultasMenu.ForeColor = System.Drawing.Color.White;
-            this.btnConsultasMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnConsultasMenu.Image")));
-            this.btnConsultasMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnConsultasMenu.Location = new System.Drawing.Point(13, 171);
-            this.btnConsultasMenu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnConsultasMenu.Name = "btnConsultasMenu";
-            this.btnConsultasMenu.Size = new System.Drawing.Size(326, 49);
-            this.btnConsultasMenu.TabIndex = 32;
-            this.btnConsultasMenu.Text = "Consultas";
-            this.btnConsultasMenu.UseVisualStyleBackColor = false;
             // 
             // lblhora
             // 
@@ -284,24 +199,6 @@
             this.SubMenuEmpleado.TabIndex = 43;
             this.SubMenuEmpleado.Visible = false;
             // 
-            // btEntrarMenu
-            // 
-            this.btEntrarMenu.BackColor = System.Drawing.Color.Gray;
-            this.btEntrarMenu.FlatAppearance.BorderSize = 0;
-            this.btEntrarMenu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.btEntrarMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btEntrarMenu.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btEntrarMenu.ForeColor = System.Drawing.Color.White;
-            this.btEntrarMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btEntrarMenu.Location = new System.Drawing.Point(4, 0);
-            this.btEntrarMenu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btEntrarMenu.Name = "btEntrarMenu";
-            this.btEntrarMenu.Size = new System.Drawing.Size(264, 43);
-            this.btEntrarMenu.TabIndex = 16;
-            this.btEntrarMenu.Text = "Entrar";
-            this.btEntrarMenu.UseVisualStyleBackColor = false;
-            this.btEntrarMenu.Click += new System.EventHandler(this.btEntrarMenu_Click);
-            // 
             // btnRegistroMenu
             // 
             this.btnRegistroMenu.BackColor = System.Drawing.Color.Gray;
@@ -320,10 +217,28 @@
             this.btnRegistroMenu.UseVisualStyleBackColor = false;
             this.btnRegistroMenu.Click += new System.EventHandler(this.btnRegistroMenu_Click);
             // 
+            // btEntrarMenu
+            // 
+            this.btEntrarMenu.BackColor = System.Drawing.Color.Gray;
+            this.btEntrarMenu.FlatAppearance.BorderSize = 0;
+            this.btEntrarMenu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btEntrarMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btEntrarMenu.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btEntrarMenu.ForeColor = System.Drawing.Color.White;
+            this.btEntrarMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btEntrarMenu.Location = new System.Drawing.Point(4, 0);
+            this.btEntrarMenu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btEntrarMenu.Name = "btEntrarMenu";
+            this.btEntrarMenu.Size = new System.Drawing.Size(264, 43);
+            this.btEntrarMenu.TabIndex = 16;
+            this.btEntrarMenu.Text = "Entrar";
+            this.btEntrarMenu.UseVisualStyleBackColor = false;
+            this.btEntrarMenu.Click += new System.EventHandler(this.btEntrarMenu_Click);
+            // 
             // SubMenuCliente
             // 
             this.SubMenuCliente.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.SubMenuCliente.Controls.Add(this.button1);
+            this.SubMenuCliente.Controls.Add(this.btnAgregarCliente);
             this.SubMenuCliente.Controls.Add(this.button2);
             this.SubMenuCliente.Location = new System.Drawing.Point(347, 174);
             this.SubMenuCliente.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -332,23 +247,23 @@
             this.SubMenuCliente.TabIndex = 44;
             this.SubMenuCliente.Visible = false;
             // 
-            // button1
+            // btnAgregarCliente
             // 
-            this.button1.BackColor = System.Drawing.Color.Gray;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(4, 53);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(264, 43);
-            this.button1.TabIndex = 18;
-            this.button1.Text = "Registrarse";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnAgregarCliente.BackColor = System.Drawing.Color.Gray;
+            this.btnAgregarCliente.FlatAppearance.BorderSize = 0;
+            this.btnAgregarCliente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnAgregarCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAgregarCliente.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarCliente.ForeColor = System.Drawing.Color.White;
+            this.btnAgregarCliente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAgregarCliente.Location = new System.Drawing.Point(4, 53);
+            this.btnAgregarCliente.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnAgregarCliente.Name = "btnAgregarCliente";
+            this.btnAgregarCliente.Size = new System.Drawing.Size(264, 43);
+            this.btnAgregarCliente.TabIndex = 18;
+            this.btnAgregarCliente.Text = "Registrarse";
+            this.btnAgregarCliente.UseVisualStyleBackColor = false;
+            this.btnAgregarCliente.Click += new System.EventHandler(this.btnAgregarCliente_Click);
             // 
             // button2
             // 
@@ -366,6 +281,92 @@
             this.button2.TabIndex = 16;
             this.button2.Text = "Entrar";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // btnReportesMenu
+            // 
+            this.btnReportesMenu.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.btnReportesMenu.FlatAppearance.BorderSize = 0;
+            this.btnReportesMenu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnReportesMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReportesMenu.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReportesMenu.ForeColor = System.Drawing.Color.White;
+            this.btnReportesMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnReportesMenu.Image")));
+            this.btnReportesMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnReportesMenu.Location = new System.Drawing.Point(13, 348);
+            this.btnReportesMenu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnReportesMenu.Name = "btnReportesMenu";
+            this.btnReportesMenu.Size = new System.Drawing.Size(326, 49);
+            this.btnReportesMenu.TabIndex = 38;
+            this.btnReportesMenu.Text = "Reportes";
+            this.btnReportesMenu.UseVisualStyleBackColor = false;
+            this.btnReportesMenu.Click += new System.EventHandler(this.btnReportesMenu_Click_1);
+            // 
+            // btnEmpleadoMenu
+            // 
+            this.btnEmpleadoMenu.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.btnEmpleadoMenu.FlatAppearance.BorderSize = 0;
+            this.btnEmpleadoMenu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnEmpleadoMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEmpleadoMenu.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEmpleadoMenu.ForeColor = System.Drawing.Color.White;
+            this.btnEmpleadoMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnEmpleadoMenu.Image")));
+            this.btnEmpleadoMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEmpleadoMenu.Location = new System.Drawing.Point(13, 289);
+            this.btnEmpleadoMenu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnEmpleadoMenu.Name = "btnEmpleadoMenu";
+            this.btnEmpleadoMenu.Size = new System.Drawing.Size(326, 49);
+            this.btnEmpleadoMenu.TabIndex = 36;
+            this.btnEmpleadoMenu.Text = "Empleados";
+            this.btnEmpleadoMenu.UseVisualStyleBackColor = false;
+            this.btnEmpleadoMenu.Click += new System.EventHandler(this.btnEmpleadoMenu_Click);
+            // 
+            // btnClientesMenu
+            // 
+            this.btnClientesMenu.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.btnClientesMenu.FlatAppearance.BorderSize = 0;
+            this.btnClientesMenu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnClientesMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClientesMenu.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClientesMenu.ForeColor = System.Drawing.Color.White;
+            this.btnClientesMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnClientesMenu.Image")));
+            this.btnClientesMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnClientesMenu.Location = new System.Drawing.Point(13, 230);
+            this.btnClientesMenu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnClientesMenu.Name = "btnClientesMenu";
+            this.btnClientesMenu.Size = new System.Drawing.Size(326, 49);
+            this.btnClientesMenu.TabIndex = 34;
+            this.btnClientesMenu.Text = "Clientes";
+            this.btnClientesMenu.UseVisualStyleBackColor = false;
+            this.btnClientesMenu.Click += new System.EventHandler(this.btnClientesMenu_Click);
+            // 
+            // btnConsultasMenu
+            // 
+            this.btnConsultasMenu.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.btnConsultasMenu.FlatAppearance.BorderSize = 0;
+            this.btnConsultasMenu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnConsultasMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConsultasMenu.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsultasMenu.ForeColor = System.Drawing.Color.White;
+            this.btnConsultasMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnConsultasMenu.Image")));
+            this.btnConsultasMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnConsultasMenu.Location = new System.Drawing.Point(13, 171);
+            this.btnConsultasMenu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnConsultasMenu.Name = "btnConsultasMenu";
+            this.btnConsultasMenu.Size = new System.Drawing.Size(326, 49);
+            this.btnConsultasMenu.TabIndex = 32;
+            this.btnConsultasMenu.Text = "Consultas";
+            this.btnConsultasMenu.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::TrabajoFinalProgIII.Properties.Resources.Logo_progr;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 34);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(220, 129);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
             // 
             // MenuPrincipal
             // 
@@ -392,10 +393,10 @@
             this.Name = "MenuPrincipal";
             this.Text = "MenuPrincipal";
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.SubmenuReportes.ResumeLayout(false);
             this.SubMenuEmpleado.ResumeLayout(false);
             this.SubMenuCliente.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -424,7 +425,7 @@
         private System.Windows.Forms.Button btnRegistroMenu;
         private System.Windows.Forms.Button btEntrarMenu;
         private System.Windows.Forms.Panel SubMenuCliente;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnAgregarCliente;
         private System.Windows.Forms.Button button2;
     }
 }
