@@ -16,5 +16,10 @@ namespace TrabajoFinalProgIII
         {
             InitializeComponent();
         }
+
+        private void btnReportesMenu_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
