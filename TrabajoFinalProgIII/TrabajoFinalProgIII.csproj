@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,17 +47,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="DiseñoReportes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="DiseñoReportes.Designer.cs">
+      <DependentUpon>DiseñoReportes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="LoginUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="LoginUsuario.Designer.cs">
+      <DependentUpon>LoginUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistroCli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistroCli.Designer.cs">
+      <DependentUpon>RegistroCli.cs</DependentUpon>
     </Compile>
     <Compile Include="HeladeriaJJEDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -89,11 +96,14 @@
     <Compile Include="StatusVehiculo.Designer.cs">
       <DependentUpon>StatusVehiculo.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="DiseñoReportes.resx">
+      <DependentUpon>DiseñoReportes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="LoginUsuario.resx">
+      <DependentUpon>LoginUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistroCli.resx">
+      <DependentUpon>RegistroCli.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginCliente.resx">
       <DependentUpon>LoginCliente.cs</DependentUpon>

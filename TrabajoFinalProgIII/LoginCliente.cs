@@ -24,7 +24,7 @@ namespace TrabajoFinalProgIII
 
         private void btnregistrarnu_Click(object sender, EventArgs e)
         {
-            Form Form2 = new Form2();
+            Form Form2 = new RegistroCli();
             Form2.Show();
         }
     }

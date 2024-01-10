@@ -50,13 +50,13 @@ namespace TrabajoFinalProgIII
 
         private void btnAgregarCliente_Click(object sender, EventArgs e)
         {
-            Form Form2 = new Form2();
+            Form Form2 = new RegistroCli();
             Form2.Show();
         }
 
         private void btEntrarMenu_Click(object sender, EventArgs e)
         {
-            Form Form1 = new Form1();
+            Form Form1 = new LoginUsuario();
             Form1.Show();
         }
 

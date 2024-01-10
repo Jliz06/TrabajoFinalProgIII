@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TrabajoFinalProgIII
 {
-    public partial class Form2 : Form
+    public partial class RegistroCli : Form
     {
-        public Form2()
+        public RegistroCli()
         {
             InitializeComponent();
         }

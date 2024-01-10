@@ -12,9 +12,9 @@ using System.Data.Sql;
 
 namespace TrabajoFinalProgIII
 {
-    public partial class Form1 : Form
+    public partial class LoginUsuario : Form
     {
-        public Form1()
+        public LoginUsuario()
         {
             InitializeComponent();
         }
