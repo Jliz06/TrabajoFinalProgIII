@@ -52,9 +52,9 @@
             this.Login.AutoSize = true;
             this.Login.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Login.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Login.Location = new System.Drawing.Point(47, 96);
+            this.Login.Location = new System.Drawing.Point(192, 41);
             this.Login.Name = "Login";
-            this.Login.Size = new System.Drawing.Size(110, 44);
+            this.Login.Size = new System.Drawing.Size(73, 30);
             this.Login.TabIndex = 0;
             this.Login.Text = "Login";
             this.Login.Click += new System.EventHandler(this.Login_Click);
@@ -65,7 +65,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(221, 89);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 31);
+            this.label2.Size = new System.Drawing.Size(0, 19);
             this.label2.TabIndex = 1;
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
@@ -75,7 +75,7 @@
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(221, 168);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(0, 31);
+            this.label3.Size = new System.Drawing.Size(0, 19);
             this.label3.TabIndex = 2;
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
@@ -134,7 +134,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(503, 37);
+            this.panel1.Size = new System.Drawing.Size(497, 37);
             this.panel1.TabIndex = 9;
             // 
             // button1
@@ -145,7 +145,7 @@
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(412, 4);
+            this.button1.Location = new System.Drawing.Point(415, 2);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(79, 33);
@@ -158,10 +158,10 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.IndianRed;
-            this.label5.Location = new System.Drawing.Point(229, 306);
+            this.label5.Location = new System.Drawing.Point(273, 292);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(255, 29);
+            this.label5.Size = new System.Drawing.Size(176, 20);
             this.label5.TabIndex = 10;
             this.label5.Text = "No estas registrado?";
             // 
@@ -172,7 +172,7 @@
             this.btnregistrarnu.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnregistrarnu.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnregistrarnu.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnregistrarnu.Location = new System.Drawing.Point(253, 337);
+            this.btnregistrarnu.Location = new System.Drawing.Point(297, 323);
             this.btnregistrarnu.Margin = new System.Windows.Forms.Padding(2);
             this.btnregistrarnu.Name = "btnregistrarnu";
             this.btnregistrarnu.Size = new System.Drawing.Size(134, 40);
@@ -188,7 +188,7 @@
             this.label1.Location = new System.Drawing.Point(228, 96);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(229, 31);
+            this.label1.Size = new System.Drawing.Size(152, 21);
             this.label1.TabIndex = 12;
             this.label1.Text = "Ingrese Su Usuario";
             // 
@@ -200,7 +200,7 @@
             this.label4.Location = new System.Drawing.Point(221, 176);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(270, 31);
+            this.label4.Size = new System.Drawing.Size(179, 21);
             this.label4.TabIndex = 13;
             this.label4.Text = "Ingrese Su Contrasena";
             // 
@@ -208,19 +208,19 @@
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(11, 153);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 110);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(183, 217);
+            this.pictureBox1.Size = new System.Drawing.Size(183, 165);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(503, 416);
+            this.ClientSize = new System.Drawing.Size(497, 372);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
