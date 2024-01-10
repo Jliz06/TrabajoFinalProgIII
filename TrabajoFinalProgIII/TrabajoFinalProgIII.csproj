@@ -59,6 +59,12 @@
     <Compile Include="LoginUsuario.Designer.cs">
       <DependentUpon>LoginUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="MantenimientoClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoClientes.Designer.cs">
+      <DependentUpon>MantenimientoClientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="RegistroCli.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +102,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LoginUsuario.resx">
       <DependentUpon>LoginUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoClientes.resx">
+      <DependentUpon>MantenimientoClientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegistroCli.resx">
       <DependentUpon>RegistroCli.cs</DependentUpon>
