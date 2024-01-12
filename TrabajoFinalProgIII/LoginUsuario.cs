@@ -94,5 +94,10 @@ namespace TrabajoFinalProgIII
         {
             Close();
         }
+
+        private void btnregistrarnu_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
