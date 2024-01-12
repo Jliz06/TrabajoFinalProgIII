@@ -40,8 +40,8 @@
             this.ESTADO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DESCRIPCION = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btncerrarMenu = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.btncerrarMenu = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -50,7 +50,7 @@
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(317, 327);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(155, 37);
             this.button1.TabIndex = 0;
@@ -62,7 +62,7 @@
             this.label1.AutoSize = true;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(245, 33);
+            this.label1.Location = new System.Drawing.Point(244, 44);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(253, 27);
@@ -83,7 +83,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(119, 86);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(132, 22);
             this.textBox1.TabIndex = 3;
@@ -98,7 +98,7 @@
             this.ESTADO,
             this.DESCRIPCION});
             this.dataGridView1.Location = new System.Drawing.Point(35, 123);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -152,25 +152,10 @@
             this.panel1.Controls.Add(this.btncerrarMenu);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(760, 30);
+            this.panel1.Size = new System.Drawing.Size(760, 40);
             this.panel1.TabIndex = 11;
-            // 
-            // btncerrarMenu
-            // 
-            this.btncerrarMenu.BackColor = System.Drawing.Color.IndianRed;
-            this.btncerrarMenu.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btncerrarMenu.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.btncerrarMenu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.btncerrarMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btncerrarMenu.Image = ((System.Drawing.Image)(resources.GetObject("btncerrarMenu.Image")));
-            this.btncerrarMenu.Location = new System.Drawing.Point(680, 2);
-            this.btncerrarMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btncerrarMenu.Name = "btncerrarMenu";
-            this.btncerrarMenu.Size = new System.Drawing.Size(71, 26);
-            this.btncerrarMenu.TabIndex = 0;
-            this.btncerrarMenu.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
@@ -180,12 +165,27 @@
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(601, 3);
+            this.button2.Location = new System.Drawing.Point(601, 1);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(71, 26);
+            this.button2.Size = new System.Drawing.Size(71, 37);
             this.button2.TabIndex = 12;
             this.button2.UseVisualStyleBackColor = false;
+            // 
+            // btncerrarMenu
+            // 
+            this.btncerrarMenu.BackColor = System.Drawing.Color.IndianRed;
+            this.btncerrarMenu.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btncerrarMenu.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btncerrarMenu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btncerrarMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btncerrarMenu.Image = ((System.Drawing.Image)(resources.GetObject("btncerrarMenu.Image")));
+            this.btncerrarMenu.Location = new System.Drawing.Point(680, 1);
+            this.btncerrarMenu.Margin = new System.Windows.Forms.Padding(4);
+            this.btncerrarMenu.Name = "btncerrarMenu";
+            this.btncerrarMenu.Size = new System.Drawing.Size(71, 38);
+            this.btncerrarMenu.TabIndex = 0;
+            this.btncerrarMenu.UseVisualStyleBackColor = false;
             // 
             // StatusVehiculo
             // 
@@ -200,7 +200,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "StatusVehiculo";
             this.Text = "StatusVehiculo";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

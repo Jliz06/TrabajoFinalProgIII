@@ -32,6 +32,15 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Telefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Dirección = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Documento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MarcaVehiculo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ModeloVehiculo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.AnoVehiculo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PlacaVehiculo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label5 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -45,8 +54,8 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnCerrar = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.btnCerrar = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -57,15 +66,6 @@
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Telefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Dirección = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Documento = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.MarcaVehiculo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ModeloVehiculo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.AnoVehiculo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PlacaVehiculo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -119,6 +119,82 @@
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.Size = new System.Drawing.Size(1113, 283);
             this.dataGridView1.TabIndex = 6;
+            // 
+            // ID
+            // 
+            this.ID.Frozen = true;
+            this.ID.HeaderText = "ID";
+            this.ID.MinimumWidth = 8;
+            this.ID.Name = "ID";
+            this.ID.Width = 75;
+            // 
+            // Nombre
+            // 
+            this.Nombre.Frozen = true;
+            this.Nombre.HeaderText = "Nombre";
+            this.Nombre.MinimumWidth = 8;
+            this.Nombre.Name = "Nombre";
+            this.Nombre.Width = 150;
+            // 
+            // Telefono
+            // 
+            this.Telefono.Frozen = true;
+            this.Telefono.HeaderText = "Telefono";
+            this.Telefono.MinimumWidth = 8;
+            this.Telefono.Name = "Telefono";
+            this.Telefono.Width = 150;
+            // 
+            // Dirección
+            // 
+            this.Dirección.Frozen = true;
+            this.Dirección.HeaderText = "Dirección";
+            this.Dirección.MinimumWidth = 8;
+            this.Dirección.Name = "Dirección";
+            this.Dirección.Width = 200;
+            // 
+            // Documento
+            // 
+            this.Documento.Frozen = true;
+            this.Documento.HeaderText = "Documento";
+            this.Documento.MinimumWidth = 8;
+            this.Documento.Name = "Documento";
+            this.Documento.Width = 150;
+            // 
+            // MarcaVehiculo
+            // 
+            this.MarcaVehiculo.Frozen = true;
+            this.MarcaVehiculo.HeaderText = "Marca Vehiculo";
+            this.MarcaVehiculo.MinimumWidth = 6;
+            this.MarcaVehiculo.Name = "MarcaVehiculo";
+            this.MarcaVehiculo.ReadOnly = true;
+            this.MarcaVehiculo.Width = 125;
+            // 
+            // ModeloVehiculo
+            // 
+            this.ModeloVehiculo.Frozen = true;
+            this.ModeloVehiculo.HeaderText = "Modelo Vehiculo";
+            this.ModeloVehiculo.MinimumWidth = 6;
+            this.ModeloVehiculo.Name = "ModeloVehiculo";
+            this.ModeloVehiculo.ReadOnly = true;
+            this.ModeloVehiculo.Width = 125;
+            // 
+            // AnoVehiculo
+            // 
+            this.AnoVehiculo.Frozen = true;
+            this.AnoVehiculo.HeaderText = "Ano Vehiculo";
+            this.AnoVehiculo.MinimumWidth = 6;
+            this.AnoVehiculo.Name = "AnoVehiculo";
+            this.AnoVehiculo.ReadOnly = true;
+            this.AnoVehiculo.Width = 125;
+            // 
+            // PlacaVehiculo
+            // 
+            this.PlacaVehiculo.Frozen = true;
+            this.PlacaVehiculo.HeaderText = "Placa Vehiculo";
+            this.PlacaVehiculo.MinimumWidth = 6;
+            this.PlacaVehiculo.Name = "PlacaVehiculo";
+            this.PlacaVehiculo.ReadOnly = true;
+            this.PlacaVehiculo.Width = 125;
             // 
             // label5
             // 
@@ -257,22 +333,6 @@
             this.panel1.Size = new System.Drawing.Size(1141, 49);
             this.panel1.TabIndex = 27;
             // 
-            // btnCerrar
-            // 
-            this.btnCerrar.BackColor = System.Drawing.Color.IndianRed;
-            this.btnCerrar.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnCerrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.btnCerrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Image")));
-            this.btnCerrar.Location = new System.Drawing.Point(1036, 2);
-            this.btnCerrar.Margin = new System.Windows.Forms.Padding(6);
-            this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(100, 45);
-            this.btnCerrar.TabIndex = 1;
-            this.btnCerrar.UseVisualStyleBackColor = false;
-            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
-            // 
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.IndianRed;
@@ -281,12 +341,28 @@
             this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.Location = new System.Drawing.Point(929, 4);
+            this.button5.Location = new System.Drawing.Point(947, 4);
             this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(82, 41);
             this.button5.TabIndex = 28;
             this.button5.UseVisualStyleBackColor = false;
+            // 
+            // btnCerrar
+            // 
+            this.btnCerrar.BackColor = System.Drawing.Color.IndianRed;
+            this.btnCerrar.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnCerrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btnCerrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Image")));
+            this.btnCerrar.Location = new System.Drawing.Point(1051, 2);
+            this.btnCerrar.Margin = new System.Windows.Forms.Padding(6);
+            this.btnCerrar.Name = "btnCerrar";
+            this.btnCerrar.Size = new System.Drawing.Size(85, 44);
+            this.btnCerrar.TabIndex = 1;
+            this.btnCerrar.UseVisualStyleBackColor = false;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // label7
             // 
@@ -376,82 +452,6 @@
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(188, 34);
             this.textBox11.TabIndex = 37;
-            // 
-            // ID
-            // 
-            this.ID.Frozen = true;
-            this.ID.HeaderText = "ID";
-            this.ID.MinimumWidth = 8;
-            this.ID.Name = "ID";
-            this.ID.Width = 75;
-            // 
-            // Nombre
-            // 
-            this.Nombre.Frozen = true;
-            this.Nombre.HeaderText = "Nombre";
-            this.Nombre.MinimumWidth = 8;
-            this.Nombre.Name = "Nombre";
-            this.Nombre.Width = 150;
-            // 
-            // Telefono
-            // 
-            this.Telefono.Frozen = true;
-            this.Telefono.HeaderText = "Telefono";
-            this.Telefono.MinimumWidth = 8;
-            this.Telefono.Name = "Telefono";
-            this.Telefono.Width = 150;
-            // 
-            // Dirección
-            // 
-            this.Dirección.Frozen = true;
-            this.Dirección.HeaderText = "Dirección";
-            this.Dirección.MinimumWidth = 8;
-            this.Dirección.Name = "Dirección";
-            this.Dirección.Width = 200;
-            // 
-            // Documento
-            // 
-            this.Documento.Frozen = true;
-            this.Documento.HeaderText = "Documento";
-            this.Documento.MinimumWidth = 8;
-            this.Documento.Name = "Documento";
-            this.Documento.Width = 150;
-            // 
-            // MarcaVehiculo
-            // 
-            this.MarcaVehiculo.Frozen = true;
-            this.MarcaVehiculo.HeaderText = "Marca Vehiculo";
-            this.MarcaVehiculo.MinimumWidth = 6;
-            this.MarcaVehiculo.Name = "MarcaVehiculo";
-            this.MarcaVehiculo.ReadOnly = true;
-            this.MarcaVehiculo.Width = 125;
-            // 
-            // ModeloVehiculo
-            // 
-            this.ModeloVehiculo.Frozen = true;
-            this.ModeloVehiculo.HeaderText = "Modelo Vehiculo";
-            this.ModeloVehiculo.MinimumWidth = 6;
-            this.ModeloVehiculo.Name = "ModeloVehiculo";
-            this.ModeloVehiculo.ReadOnly = true;
-            this.ModeloVehiculo.Width = 125;
-            // 
-            // AnoVehiculo
-            // 
-            this.AnoVehiculo.Frozen = true;
-            this.AnoVehiculo.HeaderText = "Ano Vehiculo";
-            this.AnoVehiculo.MinimumWidth = 6;
-            this.AnoVehiculo.Name = "AnoVehiculo";
-            this.AnoVehiculo.ReadOnly = true;
-            this.AnoVehiculo.Width = 125;
-            // 
-            // PlacaVehiculo
-            // 
-            this.PlacaVehiculo.Frozen = true;
-            this.PlacaVehiculo.HeaderText = "Placa Vehiculo";
-            this.PlacaVehiculo.MinimumWidth = 6;
-            this.PlacaVehiculo.Name = "PlacaVehiculo";
-            this.PlacaVehiculo.ReadOnly = true;
-            this.PlacaVehiculo.Width = 125;
             // 
             // RegistroCli
             // 
