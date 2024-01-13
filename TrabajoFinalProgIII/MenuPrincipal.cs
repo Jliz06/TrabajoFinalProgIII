@@ -35,17 +35,16 @@ namespace TrabajoFinalProgIII
 
         private void btnReportesMenu_Click_1(object sender, EventArgs e)
         {
-            SubmenuReportes.Visible = true;
+           
         }
 
         private void btnEmpleadoMenu_Click(object sender, EventArgs e)
         {
-            SubMenuEmpleado.Visible = true;
+           
         }
 
         private void btnClientesMenu_Click(object sender, EventArgs e)
         {
-            SubMenuCliente.Visible = true;
         }
 
         private void btnAgregarCliente_Click(object sender, EventArgs e)
@@ -68,8 +67,26 @@ namespace TrabajoFinalProgIII
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form LoginCliente = new LoginCliente();
-            LoginCliente.Show();
+            Form Loginusuario = new LoginUsuario();
+            Loginusuario.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form form = new StatusVehiculo();
+            form.Show();
+        }
+
+        private void btnclientes_Click(object sender, EventArgs e)
+        {
+            Form form = new RegistroCli();
+            form.Show();
+        }
+
+        private void btnreportes_Click(object sender, EventArgs e)
+        {
+            Form form = new MantenimientoClientes();
+            form.Show();
         }
     }
 }

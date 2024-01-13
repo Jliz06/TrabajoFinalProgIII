@@ -47,15 +47,15 @@ namespace TrabajoFinalProgIII
         private void btnAcceder_Click(object sender, EventArgs e)
         {
 
-                SqlConnection conn = new SqlConnection(@"Data Source = EVENSON\SQLEXPRESS; Initial Catalog = HeladeriaJJE; Integrated Security = True");
-            String usuario, contraseña;
+                SqlConnection conn = new SqlConnection(@"Data Source = Lenovo\SQLEXPRESS; Initial Catalog = MECHANIC-SOFT; Integrated Security = True");
+            String usuario, pass;
 
             usuario = txtBoxUsuariolg.Text;
-            contraseña = txtBoxContrasenalg.Text;
+            pass = txtBoxContrasenalg.Text;
             try
             {
                 conn.Open();
-                String query = "Select * from [Usuarios] where NombreUsuario = '" + usuario + "' and  Contraseña = '" + contraseña + "'";
+                String query = "Select * from [Usuarios] where NombreUsuario = '" + usuario + "' and  Contraseña = '" + pass + "'";
                 SqlDataAdapter sda = new SqlDataAdapter(query, conn);
 
                 DataTable dt = new DataTable();
@@ -67,7 +67,7 @@ namespace TrabajoFinalProgIII
                     usuario = txtBoxUsuariolg.Text;
                     pass = txtBoxContrasenalg.Text;
 
-
+                    
                 }
                 else
                 {

@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StatusVehiculo));
-            this.button1 = new System.Windows.Forms.Button();
+            this.BTNVERSTATUS = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -46,26 +46,24 @@
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // BTNVERSTATUS
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(317, 327);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(155, 37);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Verificar status";
-            this.button1.UseVisualStyleBackColor = true;
+            this.BTNVERSTATUS.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTNVERSTATUS.Location = new System.Drawing.Point(238, 266);
+            this.BTNVERSTATUS.Name = "BTNVERSTATUS";
+            this.BTNVERSTATUS.Size = new System.Drawing.Size(116, 30);
+            this.BTNVERSTATUS.TabIndex = 0;
+            this.BTNVERSTATUS.Text = "Verificar status";
+            this.BTNVERSTATUS.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(244, 44);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(183, 36);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(253, 27);
+            this.label1.Size = new System.Drawing.Size(206, 22);
             this.label1.TabIndex = 1;
             this.label1.Text = "STATUS DE VEHICULO";
             // 
@@ -73,19 +71,17 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(16, 90);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(12, 73);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(93, 20);
+            this.label2.Size = new System.Drawing.Size(74, 16);
             this.label2.TabIndex = 2;
             this.label2.Text = "ID Cliente";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(119, 86);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox1.Location = new System.Drawing.Point(89, 70);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(132, 22);
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 3;
             // 
             // dataGridView1
@@ -97,12 +93,11 @@
             this.PLACA,
             this.ESTADO,
             this.DESCRIPCION});
-            this.dataGridView1.Location = new System.Drawing.Point(35, 123);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
+            this.dataGridView1.Location = new System.Drawing.Point(26, 100);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(677, 197);
+            this.dataGridView1.Size = new System.Drawing.Size(508, 160);
             this.dataGridView1.TabIndex = 4;
             // 
             // MARCAVEHICULO
@@ -152,9 +147,8 @@
             this.panel1.Controls.Add(this.btncerrarMenu);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(760, 40);
+            this.panel1.Size = new System.Drawing.Size(570, 32);
             this.panel1.TabIndex = 11;
             // 
             // button2
@@ -165,10 +159,9 @@
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(601, 1);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Location = new System.Drawing.Point(451, 1);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(71, 37);
+            this.button2.Size = new System.Drawing.Size(53, 30);
             this.button2.TabIndex = 12;
             this.button2.UseVisualStyleBackColor = false;
             // 
@@ -180,27 +173,25 @@
             this.btncerrarMenu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.btncerrarMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btncerrarMenu.Image = ((System.Drawing.Image)(resources.GetObject("btncerrarMenu.Image")));
-            this.btncerrarMenu.Location = new System.Drawing.Point(680, 1);
-            this.btncerrarMenu.Margin = new System.Windows.Forms.Padding(4);
+            this.btncerrarMenu.Location = new System.Drawing.Point(510, 1);
             this.btncerrarMenu.Name = "btncerrarMenu";
-            this.btncerrarMenu.Size = new System.Drawing.Size(71, 38);
+            this.btncerrarMenu.Size = new System.Drawing.Size(53, 31);
             this.btncerrarMenu.TabIndex = 0;
             this.btncerrarMenu.UseVisualStyleBackColor = false;
             // 
             // StatusVehiculo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(760, 372);
+            this.ClientSize = new System.Drawing.Size(570, 302);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BTNVERSTATUS);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "StatusVehiculo";
             this.Text = "StatusVehiculo";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -212,7 +203,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BTNVERSTATUS;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
