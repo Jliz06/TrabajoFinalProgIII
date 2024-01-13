@@ -101,8 +101,8 @@ namespace TrabajoFinalProgIII
 
         private void btnLimpiarlg_Click(object sender, EventArgs e)
         {
-            txtBoxContrasenalg.Text = "'";
-            txtBoxUsuariolg.Text = "'";
+            txtBoxContrasenalg.Text = "";
+            txtBoxUsuariolg.Text = "";
         }
     }
 }
