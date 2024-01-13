@@ -103,6 +103,7 @@ namespace TrabajoFinalProgIII
         {
             txtBoxContrasenalg.Text = "";
             txtBoxUsuariolg.Text = "";
+            
         }
     }
 }
