@@ -19,6 +19,7 @@ namespace TrabajoFinalProgIII
         public RegistroVehiculo()
         {
             InitializeComponent();
+            CargarDatos();
         }
 
         private void btnCerrar_Click(object sender, EventArgs e)
@@ -57,7 +58,7 @@ namespace TrabajoFinalProgIII
                 }
 
                 txtidcliveh.Text = string.Empty;
-                txtObservacionesveh.Text =string.Empty;
+                txtObservacionesveh.Text = string.Empty;
 
                 CargarDatos();
             }
@@ -65,7 +66,7 @@ namespace TrabajoFinalProgIII
 
         private void CargarDatos()
         {
-            throw new NotImplementedException();
+           
         }
     }
 }

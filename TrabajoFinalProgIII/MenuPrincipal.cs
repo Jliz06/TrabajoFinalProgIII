@@ -92,12 +92,18 @@ namespace TrabajoFinalProgIII
         private void btnregistrarnu_Click(object sender, EventArgs e)
         {
             Form form = new NuevoUsuario();
-            form.Show();
+            form.ShowDialog();
         }
 
         private void btnempleados_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnregistroveh_Click(object sender, EventArgs e)
+        {
+            Form form = new RegistroVehiculo();
+            form.ShowDialog();
         }
     }
 }

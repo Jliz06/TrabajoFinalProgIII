@@ -40,7 +40,7 @@
             this.lblfecha = new System.Windows.Forms.Label();
             this.horafecha = new System.Windows.Forms.Timer(this.components);
             this.Menuviwe = new System.Windows.Forms.Panel();
-            this.btnregistroveh = new System.Windows.Forms.Button();
+            this.btnreporveh = new System.Windows.Forms.Button();
             this.btnregistrarnu = new System.Windows.Forms.Button();
             this.btnreportes = new System.Windows.Forms.Button();
             this.btnclientes = new System.Windows.Forms.Button();
@@ -144,7 +144,7 @@
             // 
             this.Menuviwe.BackColor = System.Drawing.Color.DarkGray;
             this.Menuviwe.Controls.Add(this.button1);
-            this.Menuviwe.Controls.Add(this.btnregistroveh);
+            this.Menuviwe.Controls.Add(this.btnreporveh);
             this.Menuviwe.Controls.Add(this.btnregistrarnu);
             this.Menuviwe.Controls.Add(this.btnreportes);
             this.Menuviwe.Controls.Add(this.btnclientes);
@@ -158,22 +158,23 @@
             this.Menuviwe.Size = new System.Drawing.Size(136, 433);
             this.Menuviwe.TabIndex = 48;
             // 
-            // btnregistroveh
+            // btnreporveh
             // 
-            this.btnregistroveh.BackColor = System.Drawing.Color.Transparent;
-            this.btnregistroveh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnregistroveh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnregistroveh.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnregistroveh.Image = ((System.Drawing.Image)(resources.GetObject("btnregistroveh.Image")));
-            this.btnregistroveh.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnregistroveh.Location = new System.Drawing.Point(8, 332);
-            this.btnregistroveh.Margin = new System.Windows.Forms.Padding(2);
-            this.btnregistroveh.Name = "btnregistroveh";
-            this.btnregistroveh.Size = new System.Drawing.Size(124, 44);
-            this.btnregistroveh.TabIndex = 49;
-            this.btnregistroveh.Text = "REGISTRO DE VEHICULO";
-            this.btnregistroveh.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnregistroveh.UseVisualStyleBackColor = false;
+            this.btnreporveh.BackColor = System.Drawing.Color.Transparent;
+            this.btnreporveh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnreporveh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnreporveh.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnreporveh.Image = ((System.Drawing.Image)(resources.GetObject("btnreporveh.Image")));
+            this.btnreporveh.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnreporveh.Location = new System.Drawing.Point(8, 332);
+            this.btnreporveh.Margin = new System.Windows.Forms.Padding(2);
+            this.btnreporveh.Name = "btnreporveh";
+            this.btnreporveh.Size = new System.Drawing.Size(124, 44);
+            this.btnreporveh.TabIndex = 49;
+            this.btnreporveh.Text = "REGISTRO DE VEHICULO";
+            this.btnreporveh.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnreporveh.UseVisualStyleBackColor = false;
+            this.btnreporveh.Click += new System.EventHandler(this.btnregistroveh_Click);
             // 
             // btnregistrarnu
             // 
@@ -353,7 +354,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnregistrarnu;
-        private System.Windows.Forms.Button btnregistroveh;
+        private System.Windows.Forms.Button btnreporveh;
         private System.Windows.Forms.Button button1;
     }
 }
