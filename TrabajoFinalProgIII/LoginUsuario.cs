@@ -65,11 +65,9 @@ namespace TrabajoFinalProgIII
                 if (dt.Rows.Count > 0)
                 {
                     usuario = txtBoxUsuariolg.Text;
-                    contraseña = txtBoxContrasenalg.Text;
+                    pass = txtBoxContrasenalg.Text;
 
-                    Sistema_de_venta inicio = new Sistema_de_venta();
-                    inicio.Show();
-                    this.Hide();
+
                 }
                 else
                 {
