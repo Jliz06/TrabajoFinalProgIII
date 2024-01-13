@@ -1,6 +1,6 @@
 ﻿namespace TrabajoFinalProgIII
 {
-    partial class MenuPrincipal
+    partial class Panel123
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuPrincipal));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Panel123));
             this.panel1 = new System.Windows.Forms.Panel();
             this.btncerrarMenu = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
@@ -61,7 +61,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(761, 24);
+            this.panel1.Size = new System.Drawing.Size(762, 24);
             this.panel1.TabIndex = 10;
             // 
             // btncerrarMenu
@@ -75,7 +75,7 @@
             this.btncerrarMenu.Location = new System.Drawing.Point(704, 2);
             this.btncerrarMenu.Name = "btncerrarMenu";
             this.btncerrarMenu.Size = new System.Drawing.Size(53, 21);
-            this.btncerrarMenu.TabIndex = 0;
+            this.btncerrarMenu.TabIndex = 6;
             this.btncerrarMenu.UseVisualStyleBackColor = false;
             this.btncerrarMenu.Click += new System.EventHandler(this.btncerrarMenu_Click);
             // 
@@ -153,7 +153,7 @@
             this.Menuviwe.Location = new System.Drawing.Point(0, 24);
             this.Menuviwe.Margin = new System.Windows.Forms.Padding(2);
             this.Menuviwe.Name = "Menuviwe";
-            this.Menuviwe.Size = new System.Drawing.Size(136, 384);
+            this.Menuviwe.Size = new System.Drawing.Size(136, 383);
             this.Menuviwe.TabIndex = 48;
             // 
             // btnreporveh
@@ -168,7 +168,7 @@
             this.btnreporveh.Margin = new System.Windows.Forms.Padding(2);
             this.btnreporveh.Name = "btnreporveh";
             this.btnreporveh.Size = new System.Drawing.Size(124, 44);
-            this.btnreporveh.TabIndex = 49;
+            this.btnreporveh.TabIndex = 5;
             this.btnreporveh.Text = "REGISTRO DE VEHICULO";
             this.btnreporveh.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnreporveh.UseVisualStyleBackColor = false;
@@ -187,7 +187,7 @@
             this.btnregistrarnu.Margin = new System.Windows.Forms.Padding(2);
             this.btnregistrarnu.Name = "btnregistrarnu";
             this.btnregistrarnu.Size = new System.Drawing.Size(124, 37);
-            this.btnregistrarnu.TabIndex = 12;
+            this.btnregistrarnu.TabIndex = 3;
             this.btnregistrarnu.Text = "Registrar Usuario";
             this.btnregistrarnu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnregistrarnu.UseVisualStyleBackColor = false;
@@ -223,7 +223,7 @@
             this.btnclientes.Margin = new System.Windows.Forms.Padding(2);
             this.btnclientes.Name = "btnclientes";
             this.btnclientes.Size = new System.Drawing.Size(124, 36);
-            this.btnclientes.TabIndex = 3;
+            this.btnclientes.TabIndex = 2;
             this.btnclientes.Text = "CLIENTES";
             this.btnclientes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnclientes.UseVisualStyleBackColor = false;
@@ -241,7 +241,7 @@
             this.btnconsulta.Margin = new System.Windows.Forms.Padding(2);
             this.btnconsulta.Name = "btnconsulta";
             this.btnconsulta.Size = new System.Drawing.Size(124, 37);
-            this.btnconsulta.TabIndex = 2;
+            this.btnconsulta.TabIndex = 1;
             this.btnconsulta.Text = "CONSULTAS";
             this.btnconsulta.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnconsulta.UseVisualStyleBackColor = false;
@@ -286,12 +286,12 @@
             this.label2.Size = new System.Drawing.Size(0, 39);
             this.label2.TabIndex = 46;
             // 
-            // MenuPrincipal
+            // Panel123
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(761, 408);
+            this.ClientSize = new System.Drawing.Size(762, 407);
             this.Controls.Add(this.Menuviwe);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
@@ -304,7 +304,7 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "MenuPrincipal";
+            this.Name = "Panel123";
             this.Text = "MenuPrincipal";
             this.panel1.ResumeLayout(false);
             this.Menuviwe.ResumeLayout(false);

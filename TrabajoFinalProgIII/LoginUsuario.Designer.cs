@@ -77,20 +77,22 @@
             // 
             // txtBoxUsuariolg
             // 
+            this.txtBoxUsuariolg.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBoxUsuariolg.Location = new System.Drawing.Point(226, 129);
             this.txtBoxUsuariolg.Multiline = true;
             this.txtBoxUsuariolg.Name = "txtBoxUsuariolg";
             this.txtBoxUsuariolg.Size = new System.Drawing.Size(249, 28);
-            this.txtBoxUsuariolg.TabIndex = 4;
+            this.txtBoxUsuariolg.TabIndex = 1;
             // 
             // txtBoxContrasenalg
             // 
+            this.txtBoxContrasenalg.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBoxContrasenalg.Location = new System.Drawing.Point(226, 212);
             this.txtBoxContrasenalg.Multiline = true;
             this.txtBoxContrasenalg.Name = "txtBoxContrasenalg";
             this.txtBoxContrasenalg.PasswordChar = '*';
             this.txtBoxContrasenalg.Size = new System.Drawing.Size(249, 28);
-            this.txtBoxContrasenalg.TabIndex = 5;
+            this.txtBoxContrasenalg.TabIndex = 2;
             // 
             // btnAccederlg
             // 
@@ -102,7 +104,7 @@
             this.btnAccederlg.Margin = new System.Windows.Forms.Padding(2);
             this.btnAccederlg.Name = "btnAccederlg";
             this.btnAccederlg.Size = new System.Drawing.Size(95, 36);
-            this.btnAccederlg.TabIndex = 7;
+            this.btnAccederlg.TabIndex = 4;
             this.btnAccederlg.Text = "Acceder";
             this.btnAccederlg.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAccederlg.UseVisualStyleBackColor = true;
@@ -118,7 +120,7 @@
             this.btnLimpiarlg.Margin = new System.Windows.Forms.Padding(2);
             this.btnLimpiarlg.Name = "btnLimpiarlg";
             this.btnLimpiarlg.Size = new System.Drawing.Size(90, 36);
-            this.btnLimpiarlg.TabIndex = 8;
+            this.btnLimpiarlg.TabIndex = 5;
             this.btnLimpiarlg.Text = "Limpiar";
             this.btnLimpiarlg.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLimpiarlg.UseVisualStyleBackColor = true;
@@ -193,7 +195,7 @@
             this.checkBox1.Location = new System.Drawing.Point(408, 242);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(71, 17);
-            this.checkBox1.TabIndex = 15;
+            this.checkBox1.TabIndex = 3;
             this.checkBox1.Text = "Mostrar";
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
@@ -222,6 +224,7 @@
             this.Name = "LoginUsuario";
             this.Text = "Login";
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

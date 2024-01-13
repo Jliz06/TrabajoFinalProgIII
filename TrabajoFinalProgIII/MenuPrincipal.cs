@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TrabajoFinalProgIII
 {
-    public partial class MenuPrincipal : Form
+    public partial class Panel123 : Form
     {
-        public MenuPrincipal()
+        public Panel123()
         {
             InitializeComponent();
         }
@@ -50,49 +50,79 @@ namespace TrabajoFinalProgIII
         private void btnAgregarCliente_Click(object sender, EventArgs e)
         {
             Form Form2 = new RegistroCli();
-            Form2.ShowDialog();
+            Form2.TopLevel = true;
+            Form2.Show();
+
+            this.Hide();
+
         }
 
         private void btEntrarMenu_Click(object sender, EventArgs e)
         {
             Form Form1 = new LoginUsuario();
-            Form1.ShowDialog();
+           
+            Form1.TopLevel = true;
+            Form1.Show();
+
+            this.Hide();
+
         }
 
         private void btnRegistroMenu_Click(object sender, EventArgs e)
         {
             Form NuevoUsuario = new NuevoUsuario();
-            NuevoUsuario.ShowDialog();
+            NuevoUsuario.TopLevel = true;
+            NuevoUsuario.Show();
+
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Form Loginusuario = new LoginUsuario();
-            Loginusuario.ShowDialog();
+            Loginusuario.TopLevel = true;
+            Loginusuario.Show();
+
+            this.Hide();
+
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
+
             Form form = new StatusVehiculo();
-            form.ShowDialog();
+            form.TopLevel = true;
+            form.Show();
+
+            this.Hide();
         }
+     
 
         private void btnclientes_Click(object sender, EventArgs e)
         {
             Form form = new RegistroCli();
-            form.ShowDialog();
+            form.TopLevel = true;
+            form.Show();
+
+            this.Hide();
         }
 
         private void btnreportes_Click(object sender, EventArgs e)
         {
-            Form form = new MantenimientoClientes();
-            form.ShowDialog();
+            Form form = new Reportes();
+            form.TopLevel = true;
+            form.Show();
+
+            this.Hide();
         }
 
         private void btnregistrarnu_Click(object sender, EventArgs e)
         {
             Form form = new NuevoUsuario();
-            form.ShowDialog();
+            form.TopLevel = true;
+            form.Show();
+
+            this.Hide();
         }
 
         private void btnempleados_Click(object sender, EventArgs e)
@@ -102,8 +132,11 @@ namespace TrabajoFinalProgIII
 
         private void btnregistroveh_Click(object sender, EventArgs e)
         {
-            Form form = new RegistroVehiculo();
-            form.ShowDialog();
+            Form form = new Reportes();
+            form.TopLevel = true;
+            form.Show();
+
+            this.Hide();
         }
     }
 }

@@ -40,6 +40,7 @@
             this.btnclosenu = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.txtnombreu = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -133,6 +134,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.IndianRed;
+            this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.btnclosenu);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -149,10 +151,10 @@
             this.btnclosenu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.btnclosenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnclosenu.Image = ((System.Drawing.Image)(resources.GetObject("btnclosenu.Image")));
-            this.btnclosenu.Location = new System.Drawing.Point(464, 2);
+            this.btnclosenu.Location = new System.Drawing.Point(474, 0);
             this.btnclosenu.Margin = new System.Windows.Forms.Padding(4);
             this.btnclosenu.Name = "btnclosenu";
-            this.btnclosenu.Size = new System.Drawing.Size(67, 29);
+            this.btnclosenu.Size = new System.Drawing.Size(62, 26);
             this.btnclosenu.TabIndex = 1;
             this.btnclosenu.UseVisualStyleBackColor = false;
             this.btnclosenu.Click += new System.EventHandler(this.btnclosenu_Click);
@@ -177,6 +179,21 @@
             this.txtnombreu.Name = "txtnombreu";
             this.txtnombreu.Size = new System.Drawing.Size(232, 28);
             this.txtnombreu.TabIndex = 24;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.IndianRed;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.Location = new System.Drawing.Point(411, -2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(62, 28);
+            this.button2.TabIndex = 26;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // NuevoUsuario
             // 
@@ -217,5 +234,6 @@
         private System.Windows.Forms.Button btnclosenu;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtnombreu;
+        private System.Windows.Forms.Button button2;
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace TrabajoFinalProgIII
 {
-    partial class MantenimientoClientes
+    partial class Reportes
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MantenimientoClientes));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Reportes));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -122,48 +122,48 @@
             // txtCodigoMan
             // 
             this.txtCodigoMan.Location = new System.Drawing.Point(108, 159);
-            this.txtCodigoMan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtCodigoMan.Margin = new System.Windows.Forms.Padding(2);
             this.txtCodigoMan.Name = "txtCodigoMan";
-            this.txtCodigoMan.Size = new System.Drawing.Size(115, 20);
+            this.txtCodigoMan.Size = new System.Drawing.Size(115, 22);
             this.txtCodigoMan.TabIndex = 6;
             // 
             // txtNombreMan
             // 
             this.txtNombreMan.Location = new System.Drawing.Point(108, 201);
-            this.txtNombreMan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNombreMan.Margin = new System.Windows.Forms.Padding(2);
             this.txtNombreMan.Name = "txtNombreMan";
-            this.txtNombreMan.Size = new System.Drawing.Size(115, 20);
+            this.txtNombreMan.Size = new System.Drawing.Size(115, 22);
             this.txtNombreMan.TabIndex = 7;
             // 
             // txtApellidoMan
             // 
             this.txtApellidoMan.Location = new System.Drawing.Point(108, 243);
-            this.txtApellidoMan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtApellidoMan.Margin = new System.Windows.Forms.Padding(2);
             this.txtApellidoMan.Name = "txtApellidoMan";
-            this.txtApellidoMan.Size = new System.Drawing.Size(115, 20);
+            this.txtApellidoMan.Size = new System.Drawing.Size(115, 22);
             this.txtApellidoMan.TabIndex = 8;
             // 
             // txtCorreoMan
             // 
             this.txtCorreoMan.Location = new System.Drawing.Point(108, 282);
-            this.txtCorreoMan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtCorreoMan.Margin = new System.Windows.Forms.Padding(2);
             this.txtCorreoMan.Name = "txtCorreoMan";
-            this.txtCorreoMan.Size = new System.Drawing.Size(115, 20);
+            this.txtCorreoMan.Size = new System.Drawing.Size(115, 22);
             this.txtCorreoMan.TabIndex = 9;
             // 
             // txtContactoMan
             // 
             this.txtContactoMan.Location = new System.Drawing.Point(108, 325);
-            this.txtContactoMan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtContactoMan.Margin = new System.Windows.Forms.Padding(2);
             this.txtContactoMan.Name = "txtContactoMan";
-            this.txtContactoMan.Size = new System.Drawing.Size(115, 20);
+            this.txtContactoMan.Size = new System.Drawing.Size(115, 22);
             this.txtContactoMan.TabIndex = 10;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(267, 159);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
@@ -174,7 +174,7 @@
             // 
             this.btnNuevore.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNuevore.Location = new System.Drawing.Point(609, 397);
-            this.btnNuevore.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnNuevore.Margin = new System.Windows.Forms.Padding(2);
             this.btnNuevore.Name = "btnNuevore";
             this.btnNuevore.Size = new System.Drawing.Size(85, 31);
             this.btnNuevore.TabIndex = 12;
@@ -185,7 +185,7 @@
             // 
             this.btnver.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnver.Location = new System.Drawing.Point(446, 384);
-            this.btnver.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnver.Margin = new System.Windows.Forms.Padding(2);
             this.btnver.Name = "btnver";
             this.btnver.Size = new System.Drawing.Size(102, 46);
             this.btnver.TabIndex = 16;
@@ -196,7 +196,7 @@
             // 
             this.pictureBox1.Image = global::TrabajoFinalProgIII.Properties.Resources.Logo_progr;
             this.pictureBox1.Location = new System.Drawing.Point(34, 48);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(158, 95);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -227,6 +227,7 @@
             this.button2.Size = new System.Drawing.Size(53, 30);
             this.button2.TabIndex = 12;
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // btncerrarMenu
             // 
@@ -266,7 +267,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MantenimientoClientes";
             this.Text = "MantenimientoClientes";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

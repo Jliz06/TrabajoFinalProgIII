@@ -38,7 +38,7 @@ namespace TrabajoFinalProgIII
 
                         if (existe > 0)
                         {
-                            var formulario = new MenuPrincipal();
+                            var formulario = new Panel123();
                             formulario.Show();
                             Hide();
                         }

@@ -53,11 +53,11 @@
     <Compile Include="LoginUsuario.Designer.cs">
       <DependentUpon>LoginUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="MantenimientoClientes.cs">
+    <Compile Include="Reportes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MantenimientoClientes.Designer.cs">
-      <DependentUpon>MantenimientoClientes.cs</DependentUpon>
+    <Compile Include="Reportes.Designer.cs">
+      <DependentUpon>Reportes.cs</DependentUpon>
     </Compile>
     <Compile Include="RegistroCli.cs">
       <SubType>Form</SubType>
@@ -79,12 +79,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RegistroVehiculo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="RegistroVehiculo.Designer.cs">
-      <DependentUpon>RegistroVehiculo.cs</DependentUpon>
-    </Compile>
     <Compile Include="StatusVehiculo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,8 +88,8 @@
     <EmbeddedResource Include="LoginUsuario.resx">
       <DependentUpon>LoginUsuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MantenimientoClientes.resx">
-      <DependentUpon>MantenimientoClientes.cs</DependentUpon>
+    <EmbeddedResource Include="Reportes.resx">
+      <DependentUpon>Reportes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegistroCli.resx">
       <DependentUpon>RegistroCli.cs</DependentUpon>
@@ -116,9 +110,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="RegistroVehiculo.resx">
-      <DependentUpon>RegistroVehiculo.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="StatusVehiculo.resx">
       <DependentUpon>StatusVehiculo.cs</DependentUpon>
     </EmbeddedResource>

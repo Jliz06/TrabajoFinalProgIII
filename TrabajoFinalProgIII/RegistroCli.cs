@@ -122,5 +122,14 @@ namespace TrabajoFinalProgIII
                 MessageBox.Show("Error al cargar datos: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            var form = new Panel123();
+            form.Show();
+
+            this.Hide();
+        
+    }
     }
 }

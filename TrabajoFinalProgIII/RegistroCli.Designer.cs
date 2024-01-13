@@ -34,7 +34,6 @@
             this.dtgvcli = new System.Windows.Forms.DataGridView();
             this.label5 = new System.Windows.Forms.Label();
             this.BTNBORRARCLI = new System.Windows.Forms.Button();
-            this.BTNSALIRCLI = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -45,6 +44,7 @@
             this.txtdircl = new System.Windows.Forms.TextBox();
             this.txtdoccl = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.btnCerrar = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -70,7 +70,7 @@
             this.BTNAGREGARCLI.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BTNAGREGARCLI.Name = "BTNAGREGARCLI";
             this.BTNAGREGARCLI.Size = new System.Drawing.Size(115, 43);
-            this.BTNAGREGARCLI.TabIndex = 3;
+            this.BTNAGREGARCLI.TabIndex = 10;
             this.BTNAGREGARCLI.Text = "Agregar";
             this.BTNAGREGARCLI.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BTNAGREGARCLI.UseVisualStyleBackColor = true;
@@ -81,11 +81,11 @@
             this.BTNEDITARCLI.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTNEDITARCLI.Image = ((System.Drawing.Image)(resources.GetObject("BTNEDITARCLI.Image")));
             this.BTNEDITARCLI.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BTNEDITARCLI.Location = new System.Drawing.Point(887, 320);
+            this.BTNEDITARCLI.Location = new System.Drawing.Point(1014, 239);
             this.BTNEDITARCLI.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BTNEDITARCLI.Name = "BTNEDITARCLI";
             this.BTNEDITARCLI.Size = new System.Drawing.Size(115, 43);
-            this.BTNEDITARCLI.TabIndex = 4;
+            this.BTNEDITARCLI.TabIndex = 11;
             this.BTNEDITARCLI.Text = "Editar";
             this.BTNEDITARCLI.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BTNEDITARCLI.UseVisualStyleBackColor = true;
@@ -123,26 +123,14 @@
             this.BTNBORRARCLI.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTNBORRARCLI.Image = ((System.Drawing.Image)(resources.GetObject("BTNBORRARCLI.Image")));
             this.BTNBORRARCLI.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BTNBORRARCLI.Location = new System.Drawing.Point(1011, 239);
+            this.BTNBORRARCLI.Location = new System.Drawing.Point(887, 296);
             this.BTNBORRARCLI.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BTNBORRARCLI.Name = "BTNBORRARCLI";
             this.BTNBORRARCLI.Size = new System.Drawing.Size(118, 43);
-            this.BTNBORRARCLI.TabIndex = 13;
+            this.BTNBORRARCLI.TabIndex = 12;
             this.BTNBORRARCLI.Text = "Borrar";
             this.BTNBORRARCLI.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BTNBORRARCLI.UseVisualStyleBackColor = true;
-            // 
-            // BTNSALIRCLI
-            // 
-            this.BTNSALIRCLI.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNSALIRCLI.Location = new System.Drawing.Point(1011, 320);
-            this.BTNSALIRCLI.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.BTNSALIRCLI.Name = "BTNSALIRCLI";
-            this.BTNSALIRCLI.Size = new System.Drawing.Size(118, 43);
-            this.BTNSALIRCLI.TabIndex = 14;
-            this.BTNSALIRCLI.Text = "Salir";
-            this.BTNSALIRCLI.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTNSALIRCLI.UseVisualStyleBackColor = true;
             // 
             // pictureBox1
             // 
@@ -213,7 +201,7 @@
             this.txtidcl.Name = "txtidcl";
             this.txtidcl.ReadOnly = true;
             this.txtidcl.Size = new System.Drawing.Size(67, 23);
-            this.txtidcl.TabIndex = 21;
+            this.txtidcl.TabIndex = 1;
             // 
             // txtdircl
             // 
@@ -221,7 +209,7 @@
             this.txtdircl.Multiline = true;
             this.txtdircl.Name = "txtdircl";
             this.txtdircl.Size = new System.Drawing.Size(188, 34);
-            this.txtdircl.TabIndex = 24;
+            this.txtdircl.TabIndex = 6;
             // 
             // txtdoccl
             // 
@@ -229,11 +217,12 @@
             this.txtdoccl.Multiline = true;
             this.txtdoccl.Name = "txtdoccl";
             this.txtdoccl.Size = new System.Drawing.Size(188, 34);
-            this.txtdoccl.TabIndex = 25;
+            this.txtdoccl.TabIndex = 7;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.IndianRed;
+            this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.btnCerrar);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -241,6 +230,21 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1141, 46);
             this.panel1.TabIndex = 27;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.IndianRed;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.Location = new System.Drawing.Point(1005, 6);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(53, 34);
+            this.button2.TabIndex = 13;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // btnCerrar
             // 
@@ -250,11 +254,11 @@
             this.btnCerrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Image")));
-            this.btnCerrar.Location = new System.Drawing.Point(1051, 2);
+            this.btnCerrar.Location = new System.Drawing.Point(1067, 6);
             this.btnCerrar.Margin = new System.Windows.Forms.Padding(6);
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(63, 38);
-            this.btnCerrar.TabIndex = 1;
+            this.btnCerrar.Size = new System.Drawing.Size(58, 34);
+            this.btnCerrar.TabIndex = 14;
             this.btnCerrar.UseVisualStyleBackColor = false;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
@@ -304,7 +308,7 @@
             this.txtanocl.Multiline = true;
             this.txtanocl.Name = "txtanocl";
             this.txtanocl.Size = new System.Drawing.Size(188, 34);
-            this.txtanocl.TabIndex = 32;
+            this.txtanocl.TabIndex = 8;
             this.txtanocl.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // txttelcli
@@ -313,7 +317,7 @@
             this.txttelcli.Multiline = true;
             this.txttelcli.Name = "txttelcli";
             this.txttelcli.Size = new System.Drawing.Size(188, 34);
-            this.txttelcli.TabIndex = 33;
+            this.txttelcli.TabIndex = 3;
             // 
             // txtnomcl
             // 
@@ -321,7 +325,7 @@
             this.txtnomcl.Multiline = true;
             this.txtnomcl.Name = "txtnomcl";
             this.txtnomcl.Size = new System.Drawing.Size(188, 34);
-            this.txtnomcl.TabIndex = 34;
+            this.txtnomcl.TabIndex = 2;
             // 
             // txtmarcl
             // 
@@ -329,7 +333,7 @@
             this.txtmarcl.Multiline = true;
             this.txtmarcl.Name = "txtmarcl";
             this.txtmarcl.Size = new System.Drawing.Size(188, 34);
-            this.txtmarcl.TabIndex = 35;
+            this.txtmarcl.TabIndex = 4;
             // 
             // txtmodcl
             // 
@@ -337,7 +341,7 @@
             this.txtmodcl.Multiline = true;
             this.txtmodcl.Name = "txtmodcl";
             this.txtmodcl.Size = new System.Drawing.Size(188, 34);
-            this.txtmodcl.TabIndex = 36;
+            this.txtmodcl.TabIndex = 5;
             // 
             // txtplacl
             // 
@@ -345,7 +349,7 @@
             this.txtplacl.Multiline = true;
             this.txtplacl.Name = "txtplacl";
             this.txtplacl.Size = new System.Drawing.Size(188, 34);
-            this.txtplacl.TabIndex = 37;
+            this.txtplacl.TabIndex = 9;
             // 
             // RegistroCli
             // 
@@ -372,7 +376,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.BTNSALIRCLI);
             this.Controls.Add(this.BTNBORRARCLI);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.dtgvcli);
@@ -399,7 +402,6 @@
         private System.Windows.Forms.DataGridView dtgvcli;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button BTNBORRARCLI;
-        private System.Windows.Forms.Button BTNSALIRCLI;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
@@ -421,5 +423,6 @@
         private System.Windows.Forms.TextBox txtmarcl;
         private System.Windows.Forms.TextBox txtmodcl;
         private System.Windows.Forms.TextBox txtplacl;
+        private System.Windows.Forms.Button button2;
     }
 }

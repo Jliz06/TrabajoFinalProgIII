@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TrabajoFinalProgIII
 {
-    public partial class MantenimientoClientes : Form
+    public partial class Reportes : Form
     {
-        public MantenimientoClientes()
+        public Reportes()
         {
             InitializeComponent();
         }
@@ -20,6 +20,14 @@ namespace TrabajoFinalProgIII
         private void btncerrarMenu_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var form = new Panel123();
+            form.Show();
+
+            this.Hide();
         }
     }
 }
