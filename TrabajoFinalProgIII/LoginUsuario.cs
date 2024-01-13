@@ -55,7 +55,7 @@ namespace TrabajoFinalProgIII
             try
             {
                 conn.Open();
-                String query = "Select * from [Usuarios] where NombreUsuario = '" + usuario + "' and  Contraseña = '" + pass + "'";
+                String query = "Select * from [Usuarios] where usuario = '" + usuario + "' and  pass = '" + pass + "'";
                 SqlDataAdapter sda = new SqlDataAdapter(query, conn);
 
                 DataTable dt = new DataTable();
@@ -105,5 +105,28 @@ namespace TrabajoFinalProgIII
             txtBoxUsuariolg.Text = "";
             
         }
+
+        private void Mostrar_CheckedChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked)
+            {
+                txtBoxContrasenalg.UseSystemPasswordChar = true;
+            }
+            else
+            {
+                txtBoxContrasenalg.UseSystemPasswordChar = false;
+            
+            
+
+            }
+        }
+
+      
     }
 }
