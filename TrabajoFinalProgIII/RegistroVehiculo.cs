@@ -67,6 +67,45 @@ namespace TrabajoFinalProgIII
         {
             throw new NotImplementedException();
         }
+
+        private void BTNBORRAveh_Click(object sender, EventArgs e)
+        {
+            int idABorrar;
+            if (int.TryParse(txtidcliveh.Text, out idABorrar))
+            {
+                using (SqlConnection conexion = new SqlConnection(@"Data Source = Lenovo\SQLEXPRESS; Initial Catalog = MECHANIC-SOFT; Integrated Security = True"))
+                {
+                    try
+                    {
+                        conexion.Open();
+                        string consulta = "DELETE FROM TuTabla WHERE Id = @Id";
+                        using (SqlCommand comando = new SqlCommand(consulta, conexion))
+                        {
+                            comando.Parameters.AddWithValue("@Id", idABorrar);
+
+                            int filasAfectadas = comando.ExecuteNonQuery();
+
+                            if (filasAfectadas > 0)
+                            {
+                                MessageBox.Show("Registro borrado correctamente.");
+                            }
+                            else
+                            {
+                                MessageBox.Show("No se encontró el registro con ese ID.");
+                            }
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Error al intentar borrar el registro: " + ex.Message);
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Ingrese un ID válido.");
+            }
+        }
     }
 }
     
