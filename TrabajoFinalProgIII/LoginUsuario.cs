@@ -95,7 +95,8 @@ namespace TrabajoFinalProgIII
 
         private void btnregistrarnu_Click(object sender, EventArgs e)
         {
-
+            Form form = new NuevoUsuario();
+            form.Show();
         }
     }
 }

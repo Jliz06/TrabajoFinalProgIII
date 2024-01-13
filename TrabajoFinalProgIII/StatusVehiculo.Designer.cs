@@ -178,6 +178,7 @@
             this.btncerrarMenu.Size = new System.Drawing.Size(53, 31);
             this.btncerrarMenu.TabIndex = 0;
             this.btncerrarMenu.UseVisualStyleBackColor = false;
+            this.btncerrarMenu.Click += new System.EventHandler(this.btncerrarMenu_Click);
             // 
             // StatusVehiculo
             // 
