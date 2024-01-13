@@ -45,6 +45,10 @@
             this.txtObservacionesAg = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.BTNAGREGARCLI = new System.Windows.Forms.Button();
+            this.BTNBORRARCLI = new System.Windows.Forms.Button();
+            this.BTNEDITARCLI = new System.Windows.Forms.Button();
+            this.BTNSALIRCLI = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -76,6 +80,7 @@
             this.button5.Size = new System.Drawing.Size(82, 41);
             this.button5.TabIndex = 28;
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // btnCerrar
             // 
@@ -99,7 +104,7 @@
             this.label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label5.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(559, 102);
+            this.label5.Location = new System.Drawing.Point(90, 105);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(235, 30);
             this.label5.TabIndex = 29;
@@ -200,7 +205,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(402, 186);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(582, 347);
+            this.dataGridView1.Size = new System.Drawing.Size(582, 259);
             this.dataGridView1.TabIndex = 46;
             // 
             // pictureBox1
@@ -208,12 +213,66 @@
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(27, 58);
+            this.pictureBox1.Location = new System.Drawing.Point(803, 58);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(181, 111);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 47;
             this.pictureBox1.TabStop = false;
+            // 
+            // BTNAGREGARCLI
+            // 
+            this.BTNAGREGARCLI.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTNAGREGARCLI.Image = ((System.Drawing.Image)(resources.GetObject("BTNAGREGARCLI.Image")));
+            this.BTNAGREGARCLI.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BTNAGREGARCLI.Location = new System.Drawing.Point(402, 468);
+            this.BTNAGREGARCLI.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.BTNAGREGARCLI.Name = "BTNAGREGARCLI";
+            this.BTNAGREGARCLI.Size = new System.Drawing.Size(125, 65);
+            this.BTNAGREGARCLI.TabIndex = 48;
+            this.BTNAGREGARCLI.Text = "Agregar";
+            this.BTNAGREGARCLI.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BTNAGREGARCLI.UseVisualStyleBackColor = true;
+            // 
+            // BTNBORRARCLI
+            // 
+            this.BTNBORRARCLI.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTNBORRARCLI.Image = ((System.Drawing.Image)(resources.GetObject("BTNBORRARCLI.Image")));
+            this.BTNBORRARCLI.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BTNBORRARCLI.Location = new System.Drawing.Point(556, 468);
+            this.BTNBORRARCLI.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.BTNBORRARCLI.Name = "BTNBORRARCLI";
+            this.BTNBORRARCLI.Size = new System.Drawing.Size(125, 65);
+            this.BTNBORRARCLI.TabIndex = 49;
+            this.BTNBORRARCLI.Text = "Borrar";
+            this.BTNBORRARCLI.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BTNBORRARCLI.UseVisualStyleBackColor = true;
+            // 
+            // BTNEDITARCLI
+            // 
+            this.BTNEDITARCLI.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTNEDITARCLI.Image = ((System.Drawing.Image)(resources.GetObject("BTNEDITARCLI.Image")));
+            this.BTNEDITARCLI.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BTNEDITARCLI.Location = new System.Drawing.Point(708, 468);
+            this.BTNEDITARCLI.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.BTNEDITARCLI.Name = "BTNEDITARCLI";
+            this.BTNEDITARCLI.Size = new System.Drawing.Size(125, 65);
+            this.BTNEDITARCLI.TabIndex = 50;
+            this.BTNEDITARCLI.Text = "Editar";
+            this.BTNEDITARCLI.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BTNEDITARCLI.UseVisualStyleBackColor = true;
+            // 
+            // BTNSALIRCLI
+            // 
+            this.BTNSALIRCLI.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTNSALIRCLI.Location = new System.Drawing.Point(859, 468);
+            this.BTNSALIRCLI.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.BTNSALIRCLI.Name = "BTNSALIRCLI";
+            this.BTNSALIRCLI.Size = new System.Drawing.Size(125, 65);
+            this.BTNSALIRCLI.TabIndex = 51;
+            this.BTNSALIRCLI.Text = "Salir";
+            this.BTNSALIRCLI.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BTNSALIRCLI.UseVisualStyleBackColor = true;
             // 
             // RegistroVehiculo
             // 
@@ -221,6 +280,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1006, 563);
+            this.Controls.Add(this.BTNSALIRCLI);
+            this.Controls.Add(this.BTNEDITARCLI);
+            this.Controls.Add(this.BTNBORRARCLI);
+            this.Controls.Add(this.BTNAGREGARCLI);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.txtObservacionesAg);
@@ -264,5 +327,9 @@
         private System.Windows.Forms.TextBox txtObservacionesAg;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button BTNAGREGARCLI;
+        private System.Windows.Forms.Button BTNBORRARCLI;
+        private System.Windows.Forms.Button BTNEDITARCLI;
+        private System.Windows.Forms.Button BTNSALIRCLI;
     }
 }
