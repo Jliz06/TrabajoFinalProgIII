@@ -67,10 +67,10 @@
             this.BTNAGREGARCLI.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTNAGREGARCLI.Image = ((System.Drawing.Image)(resources.GetObject("BTNAGREGARCLI.Image")));
             this.BTNAGREGARCLI.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BTNAGREGARCLI.Location = new System.Drawing.Point(860, 239);
+            this.BTNAGREGARCLI.Location = new System.Drawing.Point(887, 239);
             this.BTNAGREGARCLI.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BTNAGREGARCLI.Name = "BTNAGREGARCLI";
-            this.BTNAGREGARCLI.Size = new System.Drawing.Size(125, 65);
+            this.BTNAGREGARCLI.Size = new System.Drawing.Size(115, 43);
             this.BTNAGREGARCLI.TabIndex = 3;
             this.BTNAGREGARCLI.Text = "Agregar";
             this.BTNAGREGARCLI.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -82,10 +82,10 @@
             this.BTNEDITARCLI.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTNEDITARCLI.Image = ((System.Drawing.Image)(resources.GetObject("BTNEDITARCLI.Image")));
             this.BTNEDITARCLI.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BTNEDITARCLI.Location = new System.Drawing.Point(860, 336);
+            this.BTNEDITARCLI.Location = new System.Drawing.Point(887, 320);
             this.BTNEDITARCLI.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BTNEDITARCLI.Name = "BTNEDITARCLI";
-            this.BTNEDITARCLI.Size = new System.Drawing.Size(125, 65);
+            this.BTNEDITARCLI.Size = new System.Drawing.Size(115, 43);
             this.BTNEDITARCLI.TabIndex = 4;
             this.BTNEDITARCLI.Text = "Editar";
             this.BTNEDITARCLI.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -127,7 +127,7 @@
             this.BTNBORRARCLI.Location = new System.Drawing.Point(1011, 239);
             this.BTNBORRARCLI.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BTNBORRARCLI.Name = "BTNBORRARCLI";
-            this.BTNBORRARCLI.Size = new System.Drawing.Size(125, 65);
+            this.BTNBORRARCLI.Size = new System.Drawing.Size(118, 43);
             this.BTNBORRARCLI.TabIndex = 13;
             this.BTNBORRARCLI.Text = "Borrar";
             this.BTNBORRARCLI.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -136,10 +136,10 @@
             // BTNSALIRCLI
             // 
             this.BTNSALIRCLI.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNSALIRCLI.Location = new System.Drawing.Point(1011, 336);
+            this.BTNSALIRCLI.Location = new System.Drawing.Point(1011, 320);
             this.BTNSALIRCLI.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BTNSALIRCLI.Name = "BTNSALIRCLI";
-            this.BTNSALIRCLI.Size = new System.Drawing.Size(125, 65);
+            this.BTNSALIRCLI.Size = new System.Drawing.Size(118, 43);
             this.BTNSALIRCLI.TabIndex = 14;
             this.BTNSALIRCLI.Text = "Salir";
             this.BTNSALIRCLI.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;

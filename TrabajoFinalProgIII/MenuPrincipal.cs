@@ -94,5 +94,10 @@ namespace TrabajoFinalProgIII
             Form form = new NuevoUsuario();
             form.Show();
         }
+
+        private void btnempleados_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

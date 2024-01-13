@@ -21,5 +21,10 @@ namespace TrabajoFinalProgIII
         {
             Close();
         }
+
+        private void BTNVERSTATUS_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

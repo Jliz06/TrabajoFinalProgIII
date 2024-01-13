@@ -165,7 +165,7 @@
             this.label2.Location = new System.Drawing.Point(165, 92);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 17);
+            this.label2.Size = new System.Drawing.Size(73, 21);
             this.label2.TabIndex = 25;
             this.label2.Text = "Nombre";
             // 
@@ -183,7 +183,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(670, 412);
+            this.ClientSize = new System.Drawing.Size(536, 334);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtnombreu);
             this.Controls.Add(this.label1);

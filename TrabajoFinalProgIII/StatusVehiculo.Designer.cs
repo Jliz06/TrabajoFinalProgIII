@@ -49,23 +49,24 @@
             // BTNVERSTATUS
             // 
             this.BTNVERSTATUS.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNVERSTATUS.Location = new System.Drawing.Point(238, 266);
+            this.BTNVERSTATUS.Location = new System.Drawing.Point(236, 263);
             this.BTNVERSTATUS.Name = "BTNVERSTATUS";
-            this.BTNVERSTATUS.Size = new System.Drawing.Size(116, 30);
+            this.BTNVERSTATUS.Size = new System.Drawing.Size(116, 34);
             this.BTNVERSTATUS.TabIndex = 0;
             this.BTNVERSTATUS.Text = "Verificar status";
             this.BTNVERSTATUS.UseVisualStyleBackColor = true;
+            this.BTNVERSTATUS.Click += new System.EventHandler(this.BTNVERSTATUS_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(183, 36);
+            this.label1.Location = new System.Drawing.Point(227, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(206, 22);
+            this.label1.Size = new System.Drawing.Size(106, 22);
             this.label1.TabIndex = 1;
-            this.label1.Text = "STATUS DE VEHICULO";
+            this.label1.Text = "CONULTAR";
             // 
             // label2
             // 
@@ -81,7 +82,7 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(89, 70);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.Size = new System.Drawing.Size(100, 22);
             this.textBox1.TabIndex = 3;
             // 
             // dataGridView1
