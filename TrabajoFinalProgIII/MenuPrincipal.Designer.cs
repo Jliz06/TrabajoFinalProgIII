@@ -49,7 +49,6 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.Menuviwe.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -143,7 +142,6 @@
             // Menuviwe
             // 
             this.Menuviwe.BackColor = System.Drawing.Color.DarkGray;
-            this.Menuviwe.Controls.Add(this.button1);
             this.Menuviwe.Controls.Add(this.btnreporveh);
             this.Menuviwe.Controls.Add(this.btnregistrarnu);
             this.Menuviwe.Controls.Add(this.btnreportes);
@@ -155,7 +153,7 @@
             this.Menuviwe.Location = new System.Drawing.Point(0, 24);
             this.Menuviwe.Margin = new System.Windows.Forms.Padding(2);
             this.Menuviwe.Name = "Menuviwe";
-            this.Menuviwe.Size = new System.Drawing.Size(136, 433);
+            this.Menuviwe.Size = new System.Drawing.Size(136, 384);
             this.Menuviwe.TabIndex = 48;
             // 
             // btnreporveh
@@ -288,30 +286,12 @@
             this.label2.Size = new System.Drawing.Size(0, 39);
             this.label2.TabIndex = 46;
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.Location = new System.Drawing.Point(8, 385);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(124, 37);
-            this.button1.TabIndex = 49;
-            this.button1.Text = "Registrar Usuario";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.UseVisualStyleBackColor = false;
-            // 
             // MenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(761, 457);
+            this.ClientSize = new System.Drawing.Size(761, 408);
             this.Controls.Add(this.Menuviwe);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
@@ -355,6 +335,5 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnregistrarnu;
         private System.Windows.Forms.Button btnreporveh;
-        private System.Windows.Forms.Button button1;
     }
 }

@@ -45,7 +45,6 @@
             this.txtdircl = new System.Windows.Forms.TextBox();
             this.txtdoccl = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
             this.btnCerrar = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -98,12 +97,12 @@
             this.dtgvcli.AllowUserToDeleteRows = false;
             this.dtgvcli.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtgvcli.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvcli.Location = new System.Drawing.Point(16, 409);
+            this.dtgvcli.Location = new System.Drawing.Point(12, 400);
             this.dtgvcli.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dtgvcli.Name = "dtgvcli";
             this.dtgvcli.ReadOnly = true;
             this.dtgvcli.RowHeadersWidth = 62;
-            this.dtgvcli.Size = new System.Drawing.Size(1113, 283);
+            this.dtgvcli.Size = new System.Drawing.Size(1113, 292);
             this.dtgvcli.TabIndex = 6;
             // 
             // label5
@@ -235,29 +234,13 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.IndianRed;
-            this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.btnCerrar);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(6);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1141, 49);
+            this.panel1.Size = new System.Drawing.Size(1141, 46);
             this.panel1.TabIndex = 27;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.IndianRed;
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.Location = new System.Drawing.Point(947, 4);
-            this.button5.Margin = new System.Windows.Forms.Padding(4);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(82, 41);
-            this.button5.TabIndex = 28;
-            this.button5.UseVisualStyleBackColor = false;
             // 
             // btnCerrar
             // 
@@ -270,7 +253,7 @@
             this.btnCerrar.Location = new System.Drawing.Point(1051, 2);
             this.btnCerrar.Margin = new System.Windows.Forms.Padding(6);
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(85, 44);
+            this.btnCerrar.Size = new System.Drawing.Size(63, 38);
             this.btnCerrar.TabIndex = 1;
             this.btnCerrar.UseVisualStyleBackColor = false;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
@@ -428,7 +411,6 @@
         private System.Windows.Forms.TextBox txtdoccl;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnCerrar;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;

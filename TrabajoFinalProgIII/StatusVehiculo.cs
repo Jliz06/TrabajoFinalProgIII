@@ -26,5 +26,11 @@ namespace TrabajoFinalProgIII
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var form = new MenuPrincipal();
+            form.Show();
+        }
     }
 }
