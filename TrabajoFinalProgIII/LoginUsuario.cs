@@ -19,72 +19,39 @@ namespace TrabajoFinalProgIII
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Login_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnAcceder_Click(object sender, EventArgs e)
         {
+            var usuario = txtBoxUsuariolg.Text;
+            var pass = txtBoxContrasenalg.Text;
 
-                SqlConnection conn = new SqlConnection(@"Data Source = Lenovo\SQLEXPRESS; Initial Catalog = MECHANIC-SOFT; Integrated Security = True");
-            String usuario, pass;
-
-            usuario = txtBoxUsuariolg.Text;
-            pass = txtBoxContrasenalg.Text;
             try
             {
-                conn.Open();
-                String query = "Select * from [Usuarios] where usuario = '" + usuario + "' and  pass = '" + pass + "'";
-                SqlDataAdapter sda = new SqlDataAdapter(query, conn);
+                var query = $"Select count(*) from [USUARIOS] where lower(usuario) = '{usuario.ToLower()}' and lower(pass) = '{pass.ToLower()}'";
 
-                DataTable dt = new DataTable();
-
-                sda.Fill(dt);
-
-                if (dt.Rows.Count > 0)
+                using (var conexion = new SqlConnection(@"Data Source = Lenovo\SQLEXPRESS; Initial Catalog = MECHANIC-SOFT; Integrated Security = True"))
                 {
-                    usuario = txtBoxUsuariolg.Text;
-                    pass = txtBoxContrasenalg.Text;
+                    conexion.Open();
 
-                    
-                }
-                else
-                {
-                    MessageBox.Show("Nombre de usuario o contraseña no válidos");
-                    txtBoxUsuariolg.Clear();
-                    txtBoxContrasenalg.Clear();
+                    using (SqlCommand command = new SqlCommand(query, conexion))
+                    {
+                        int existe = (int)command.ExecuteScalar();
 
-                    txtBoxUsuariolg.Focus();
+                        if (existe > 0)
+                        {
+                            var formulario = new MenuPrincipal();
+                            formulario.Show();
+                            Hide();
+                        }
+                        else
+                        {
+                            MessageBox.Show("clave incorrecta");
+                        }
+                    }
                 }
             }
             catch (Exception es)
             {
                 MessageBox.Show(es.Message);
-            }
-            finally
-            {
-                conn.Close();
             }
         }
 
@@ -93,24 +60,12 @@ namespace TrabajoFinalProgIII
             Close();
         }
 
-        private void btnregistrarnu_Click(object sender, EventArgs e)
-        {
-            Form form = new NuevoUsuario();
-            form.Show();
-        }
-
         private void btnLimpiarlg_Click(object sender, EventArgs e)
         {
             txtBoxContrasenalg.Text = "";
             txtBoxUsuariolg.Text = "";
             
         }
-
-        private void Mostrar_CheckedChanged(object sender, EventArgs e)
-        {
-           
-        }
-
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
@@ -121,12 +76,7 @@ namespace TrabajoFinalProgIII
             else
             {
                 txtBoxContrasenalg.UseSystemPasswordChar = false;
-            
-            
-
             }
         }
-
-      
     }
 }

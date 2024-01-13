@@ -38,8 +38,6 @@
             this.btnLimpiarlg = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.btnregistrarnu = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -58,7 +56,6 @@
             this.Login.Size = new System.Drawing.Size(73, 30);
             this.Login.TabIndex = 0;
             this.Login.Text = "Login";
-            this.Login.Click += new System.EventHandler(this.Login_Click);
             // 
             // label2
             // 
@@ -68,7 +65,6 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(0, 19);
             this.label2.TabIndex = 1;
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -78,7 +74,6 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(0, 19);
             this.label3.TabIndex = 2;
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // txtBoxUsuariolg
             // 
@@ -156,34 +151,6 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.IndianRed;
-            this.label5.Location = new System.Drawing.Point(21, 292);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(176, 20);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "No estas registrado?";
-            // 
-            // btnregistrarnu
-            // 
-            this.btnregistrarnu.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnregistrarnu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnregistrarnu.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnregistrarnu.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnregistrarnu.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnregistrarnu.Location = new System.Drawing.Point(43, 317);
-            this.btnregistrarnu.Margin = new System.Windows.Forms.Padding(2);
-            this.btnregistrarnu.Name = "btnregistrarnu";
-            this.btnregistrarnu.Size = new System.Drawing.Size(134, 40);
-            this.btnregistrarnu.TabIndex = 11;
-            this.btnregistrarnu.Text = "Registrarme";
-            this.btnregistrarnu.UseVisualStyleBackColor = false;
-            this.btnregistrarnu.Click += new System.EventHandler(this.btnregistrarnu_Click);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -241,8 +208,6 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnregistrarnu);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnLimpiarlg);
             this.Controls.Add(this.btnAccederlg);
@@ -256,9 +221,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "LoginUsuario";
             this.Text = "Login";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -275,8 +238,6 @@
         private System.Windows.Forms.Button btnLimpiarlg;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button btnregistrarnu;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;

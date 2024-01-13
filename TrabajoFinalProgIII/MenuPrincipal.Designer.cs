@@ -40,6 +40,7 @@
             this.lblfecha = new System.Windows.Forms.Label();
             this.horafecha = new System.Windows.Forms.Timer(this.components);
             this.Menuviwe = new System.Windows.Forms.Panel();
+            this.btnregistrarnu = new System.Windows.Forms.Button();
             this.btnreportes = new System.Windows.Forms.Button();
             this.btnempleados = new System.Windows.Forms.Button();
             this.btnclientes = new System.Windows.Forms.Button();
@@ -143,6 +144,7 @@
             // Menuviwe
             // 
             this.Menuviwe.BackColor = System.Drawing.Color.DarkGray;
+            this.Menuviwe.Controls.Add(this.btnregistrarnu);
             this.Menuviwe.Controls.Add(this.btnreportes);
             this.Menuviwe.Controls.Add(this.btnempleados);
             this.Menuviwe.Controls.Add(this.btnclientes);
@@ -151,10 +153,26 @@
             this.Menuviwe.Controls.Add(this.flowLayoutPanel1);
             this.Menuviwe.Dock = System.Windows.Forms.DockStyle.Left;
             this.Menuviwe.Location = new System.Drawing.Point(0, 24);
-            this.Menuviwe.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Menuviwe.Margin = new System.Windows.Forms.Padding(2);
             this.Menuviwe.Name = "Menuviwe";
             this.Menuviwe.Size = new System.Drawing.Size(134, 416);
             this.Menuviwe.TabIndex = 48;
+            // 
+            // btnregistrarnu
+            // 
+            this.btnregistrarnu.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnregistrarnu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnregistrarnu.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnregistrarnu.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnregistrarnu.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnregistrarnu.Location = new System.Drawing.Point(6, 365);
+            this.btnregistrarnu.Margin = new System.Windows.Forms.Padding(2);
+            this.btnregistrarnu.Name = "btnregistrarnu";
+            this.btnregistrarnu.Size = new System.Drawing.Size(113, 40);
+            this.btnregistrarnu.TabIndex = 12;
+            this.btnregistrarnu.Text = "Registrar Usuario";
+            this.btnregistrarnu.UseVisualStyleBackColor = false;
+            this.btnregistrarnu.Click += new System.EventHandler(this.btnregistrarnu_Click);
             // 
             // btnreportes
             // 
@@ -163,8 +181,8 @@
             this.btnreportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnreportes.Image = ((System.Drawing.Image)(resources.GetObject("btnreportes.Image")));
             this.btnreportes.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnreportes.Location = new System.Drawing.Point(8, 372);
-            this.btnreportes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnreportes.Location = new System.Drawing.Point(6, 310);
+            this.btnreportes.Margin = new System.Windows.Forms.Padding(2);
             this.btnreportes.Name = "btnreportes";
             this.btnreportes.Size = new System.Drawing.Size(111, 37);
             this.btnreportes.TabIndex = 4;
@@ -180,8 +198,8 @@
             this.btnempleados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnempleados.Image = ((System.Drawing.Image)(resources.GetObject("btnempleados.Image")));
             this.btnempleados.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnempleados.Location = new System.Drawing.Point(8, 285);
-            this.btnempleados.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnempleados.Location = new System.Drawing.Point(8, 251);
+            this.btnempleados.Margin = new System.Windows.Forms.Padding(2);
             this.btnempleados.Name = "btnempleados";
             this.btnempleados.Size = new System.Drawing.Size(111, 37);
             this.btnempleados.TabIndex = 3;
@@ -196,8 +214,8 @@
             this.btnclientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnclientes.Image = ((System.Drawing.Image)(resources.GetObject("btnclientes.Image")));
             this.btnclientes.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnclientes.Location = new System.Drawing.Point(8, 205);
-            this.btnclientes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnclientes.Location = new System.Drawing.Point(8, 185);
+            this.btnclientes.Margin = new System.Windows.Forms.Padding(2);
             this.btnclientes.Name = "btnclientes";
             this.btnclientes.Size = new System.Drawing.Size(111, 36);
             this.btnclientes.TabIndex = 3;
@@ -213,8 +231,8 @@
             this.btnconsulta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnconsulta.Image = ((System.Drawing.Image)(resources.GetObject("btnconsulta.Image")));
             this.btnconsulta.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnconsulta.Location = new System.Drawing.Point(8, 124);
-            this.btnconsulta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnconsulta.Location = new System.Drawing.Point(8, 102);
+            this.btnconsulta.Margin = new System.Windows.Forms.Padding(2);
             this.btnconsulta.Name = "btnconsulta";
             this.btnconsulta.Size = new System.Drawing.Size(111, 37);
             this.btnconsulta.TabIndex = 2;
@@ -228,7 +246,7 @@
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(8, 8);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(118, 75);
             this.pictureBox2.TabIndex = 1;
@@ -237,7 +255,7 @@
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.Location = new System.Drawing.Point(184, 49);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(32, 65);
             this.flowLayoutPanel1.TabIndex = 0;
@@ -267,7 +285,7 @@
             this.pictureBox6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.BackgroundImage")));
             this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox6.Location = new System.Drawing.Point(132, 24);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(51, 31);
             this.pictureBox6.TabIndex = 0;
@@ -291,7 +309,7 @@
             this.Controls.Add(this.panel8);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MenuPrincipal";
             this.Text = "MenuPrincipal";
             this.panel1.ResumeLayout(false);
@@ -324,5 +342,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Button btnregistrarnu;
     }
 }

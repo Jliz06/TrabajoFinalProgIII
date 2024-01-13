@@ -50,42 +50,48 @@ namespace TrabajoFinalProgIII
         private void btnAgregarCliente_Click(object sender, EventArgs e)
         {
             Form Form2 = new RegistroCli();
-            Form2.Show();
+            Form2.ShowDialog();
         }
 
         private void btEntrarMenu_Click(object sender, EventArgs e)
         {
             Form Form1 = new LoginUsuario();
-            Form1.Show();
+            Form1.ShowDialog();
         }
 
         private void btnRegistroMenu_Click(object sender, EventArgs e)
         {
             Form NuevoUsuario = new NuevoUsuario();
-            NuevoUsuario.Show();
+            NuevoUsuario.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Form Loginusuario = new LoginUsuario();
-            Loginusuario.Show();
+            Loginusuario.ShowDialog();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             Form form = new StatusVehiculo();
-            form.Show();
+            form.ShowDialog();
         }
 
         private void btnclientes_Click(object sender, EventArgs e)
         {
             Form form = new RegistroCli();
-            form.Show();
+            form.ShowDialog();
         }
 
         private void btnreportes_Click(object sender, EventArgs e)
         {
             Form form = new MantenimientoClientes();
+            form.ShowDialog();
+        }
+
+        private void btnregistrarnu_Click(object sender, EventArgs e)
+        {
+            Form form = new NuevoUsuario();
             form.Show();
         }
     }
