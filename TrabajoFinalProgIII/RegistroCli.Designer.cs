@@ -31,16 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegistroCli));
             this.BTNAGREGARCLI = new System.Windows.Forms.Button();
             this.BTNEDITARCLI = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Telefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Dirección = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Documento = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.MarcaVehiculo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ModeloVehiculo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.AnoVehiculo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PlacaVehiculo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dtgvcli = new System.Windows.Forms.DataGridView();
             this.label5 = new System.Windows.Forms.Label();
             this.BTNBORRARCLI = new System.Windows.Forms.Button();
             this.BTNSALIRCLI = new System.Windows.Forms.Button();
@@ -50,9 +41,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtidcl = new System.Windows.Forms.TextBox();
+            this.txtdircl = new System.Windows.Forms.TextBox();
+            this.txtdoccl = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
             this.btnCerrar = new System.Windows.Forms.Button();
@@ -60,13 +51,13 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.txtanocl = new System.Windows.Forms.TextBox();
+            this.txttelcli = new System.Windows.Forms.TextBox();
+            this.txtnomcl = new System.Windows.Forms.TextBox();
+            this.txtmarcl = new System.Windows.Forms.TextBox();
+            this.txtmodcl = new System.Windows.Forms.TextBox();
+            this.txtplacl = new System.Windows.Forms.TextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvcli)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -84,6 +75,7 @@
             this.BTNAGREGARCLI.Text = "Agregar";
             this.BTNAGREGARCLI.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BTNAGREGARCLI.UseVisualStyleBackColor = true;
+            this.BTNAGREGARCLI.Click += new System.EventHandler(this.BTNAGREGARCLI_Click);
             // 
             // BTNEDITARCLI
             // 
@@ -100,101 +92,19 @@
             this.BTNEDITARCLI.UseVisualStyleBackColor = true;
             this.BTNEDITARCLI.Click += new System.EventHandler(this.button2_Click);
             // 
-            // dataGridView1
+            // dtgvcli
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ID,
-            this.Nombre,
-            this.Telefono,
-            this.Dirección,
-            this.Documento,
-            this.MarcaVehiculo,
-            this.ModeloVehiculo,
-            this.AnoVehiculo,
-            this.PlacaVehiculo});
-            this.dataGridView1.Location = new System.Drawing.Point(16, 409);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.Size = new System.Drawing.Size(1113, 283);
-            this.dataGridView1.TabIndex = 6;
-            // 
-            // ID
-            // 
-            this.ID.Frozen = true;
-            this.ID.HeaderText = "ID";
-            this.ID.MinimumWidth = 8;
-            this.ID.Name = "ID";
-            this.ID.Width = 75;
-            // 
-            // Nombre
-            // 
-            this.Nombre.Frozen = true;
-            this.Nombre.HeaderText = "Nombre";
-            this.Nombre.MinimumWidth = 8;
-            this.Nombre.Name = "Nombre";
-            this.Nombre.Width = 150;
-            // 
-            // Telefono
-            // 
-            this.Telefono.Frozen = true;
-            this.Telefono.HeaderText = "Telefono";
-            this.Telefono.MinimumWidth = 8;
-            this.Telefono.Name = "Telefono";
-            this.Telefono.Width = 150;
-            // 
-            // Dirección
-            // 
-            this.Dirección.Frozen = true;
-            this.Dirección.HeaderText = "Dirección";
-            this.Dirección.MinimumWidth = 8;
-            this.Dirección.Name = "Dirección";
-            this.Dirección.Width = 200;
-            // 
-            // Documento
-            // 
-            this.Documento.Frozen = true;
-            this.Documento.HeaderText = "Documento";
-            this.Documento.MinimumWidth = 8;
-            this.Documento.Name = "Documento";
-            this.Documento.Width = 150;
-            // 
-            // MarcaVehiculo
-            // 
-            this.MarcaVehiculo.Frozen = true;
-            this.MarcaVehiculo.HeaderText = "Marca Vehiculo";
-            this.MarcaVehiculo.MinimumWidth = 6;
-            this.MarcaVehiculo.Name = "MarcaVehiculo";
-            this.MarcaVehiculo.ReadOnly = true;
-            this.MarcaVehiculo.Width = 125;
-            // 
-            // ModeloVehiculo
-            // 
-            this.ModeloVehiculo.Frozen = true;
-            this.ModeloVehiculo.HeaderText = "Modelo Vehiculo";
-            this.ModeloVehiculo.MinimumWidth = 6;
-            this.ModeloVehiculo.Name = "ModeloVehiculo";
-            this.ModeloVehiculo.ReadOnly = true;
-            this.ModeloVehiculo.Width = 125;
-            // 
-            // AnoVehiculo
-            // 
-            this.AnoVehiculo.Frozen = true;
-            this.AnoVehiculo.HeaderText = "Ano Vehiculo";
-            this.AnoVehiculo.MinimumWidth = 6;
-            this.AnoVehiculo.Name = "AnoVehiculo";
-            this.AnoVehiculo.ReadOnly = true;
-            this.AnoVehiculo.Width = 125;
-            // 
-            // PlacaVehiculo
-            // 
-            this.PlacaVehiculo.Frozen = true;
-            this.PlacaVehiculo.HeaderText = "Placa Vehiculo";
-            this.PlacaVehiculo.MinimumWidth = 6;
-            this.PlacaVehiculo.Name = "PlacaVehiculo";
-            this.PlacaVehiculo.ReadOnly = true;
-            this.PlacaVehiculo.Width = 125;
+            this.dtgvcli.AllowUserToAddRows = false;
+            this.dtgvcli.AllowUserToDeleteRows = false;
+            this.dtgvcli.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dtgvcli.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvcli.Location = new System.Drawing.Point(16, 409);
+            this.dtgvcli.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.dtgvcli.Name = "dtgvcli";
+            this.dtgvcli.ReadOnly = true;
+            this.dtgvcli.RowHeadersWidth = 62;
+            this.dtgvcli.Size = new System.Drawing.Size(1113, 283);
+            this.dtgvcli.TabIndex = 6;
             // 
             // label5
             // 
@@ -298,28 +208,29 @@
             this.label6.TabIndex = 20;
             this.label6.Text = "Documento";
             // 
-            // textBox1
+            // txtidcl
             // 
-            this.textBox1.Location = new System.Drawing.Point(165, 109);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(67, 23);
-            this.textBox1.TabIndex = 21;
+            this.txtidcl.Location = new System.Drawing.Point(165, 109);
+            this.txtidcl.Name = "txtidcl";
+            this.txtidcl.ReadOnly = true;
+            this.txtidcl.Size = new System.Drawing.Size(67, 23);
+            this.txtidcl.TabIndex = 21;
             // 
-            // textBox4
+            // txtdircl
             // 
-            this.textBox4.Location = new System.Drawing.Point(584, 172);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(188, 34);
-            this.textBox4.TabIndex = 24;
+            this.txtdircl.Location = new System.Drawing.Point(584, 172);
+            this.txtdircl.Multiline = true;
+            this.txtdircl.Name = "txtdircl";
+            this.txtdircl.Size = new System.Drawing.Size(188, 34);
+            this.txtdircl.TabIndex = 24;
             // 
-            // textBox5
+            // txtdoccl
             // 
-            this.textBox5.Location = new System.Drawing.Point(584, 229);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(188, 34);
-            this.textBox5.TabIndex = 25;
+            this.txtdoccl.Location = new System.Drawing.Point(584, 229);
+            this.txtdoccl.Multiline = true;
+            this.txtdoccl.Name = "txtdoccl";
+            this.txtdoccl.Size = new System.Drawing.Size(188, 34);
+            this.txtdoccl.TabIndex = 25;
             // 
             // panel1
             // 
@@ -404,54 +315,54 @@
             this.label10.TabIndex = 31;
             this.label10.Text = "Placa Vehiculo";
             // 
-            // textBox6
+            // txtanocl
             // 
-            this.textBox6.Location = new System.Drawing.Point(584, 296);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(188, 34);
-            this.textBox6.TabIndex = 32;
-            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
+            this.txtanocl.Location = new System.Drawing.Point(584, 296);
+            this.txtanocl.Multiline = true;
+            this.txtanocl.Name = "txtanocl";
+            this.txtanocl.Size = new System.Drawing.Size(188, 34);
+            this.txtanocl.TabIndex = 32;
+            this.txtanocl.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
-            // textBox7
+            // txttelcli
             // 
-            this.textBox7.Location = new System.Drawing.Point(165, 226);
-            this.textBox7.Multiline = true;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(188, 34);
-            this.textBox7.TabIndex = 33;
+            this.txttelcli.Location = new System.Drawing.Point(165, 226);
+            this.txttelcli.Multiline = true;
+            this.txttelcli.Name = "txttelcli";
+            this.txttelcli.Size = new System.Drawing.Size(188, 34);
+            this.txttelcli.TabIndex = 33;
             // 
-            // textBox8
+            // txtnomcl
             // 
-            this.textBox8.Location = new System.Drawing.Point(165, 168);
-            this.textBox8.Multiline = true;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(188, 34);
-            this.textBox8.TabIndex = 34;
+            this.txtnomcl.Location = new System.Drawing.Point(165, 168);
+            this.txtnomcl.Multiline = true;
+            this.txtnomcl.Name = "txtnomcl";
+            this.txtnomcl.Size = new System.Drawing.Size(188, 34);
+            this.txtnomcl.TabIndex = 34;
             // 
-            // textBox9
+            // txtmarcl
             // 
-            this.textBox9.Location = new System.Drawing.Point(165, 286);
-            this.textBox9.Multiline = true;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(188, 34);
-            this.textBox9.TabIndex = 35;
+            this.txtmarcl.Location = new System.Drawing.Point(165, 286);
+            this.txtmarcl.Multiline = true;
+            this.txtmarcl.Name = "txtmarcl";
+            this.txtmarcl.Size = new System.Drawing.Size(188, 34);
+            this.txtmarcl.TabIndex = 35;
             // 
-            // textBox10
+            // txtmodcl
             // 
-            this.textBox10.Location = new System.Drawing.Point(166, 359);
-            this.textBox10.Multiline = true;
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(188, 34);
-            this.textBox10.TabIndex = 36;
+            this.txtmodcl.Location = new System.Drawing.Point(166, 359);
+            this.txtmodcl.Multiline = true;
+            this.txtmodcl.Name = "txtmodcl";
+            this.txtmodcl.Size = new System.Drawing.Size(188, 34);
+            this.txtmodcl.TabIndex = 36;
             // 
-            // textBox11
+            // txtplacl
             // 
-            this.textBox11.Location = new System.Drawing.Point(584, 359);
-            this.textBox11.Multiline = true;
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(188, 34);
-            this.textBox11.TabIndex = 37;
+            this.txtplacl.Location = new System.Drawing.Point(584, 359);
+            this.txtplacl.Multiline = true;
+            this.txtplacl.Name = "txtplacl";
+            this.txtplacl.Size = new System.Drawing.Size(188, 34);
+            this.txtplacl.TabIndex = 37;
             // 
             // RegistroCli
             // 
@@ -459,20 +370,20 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1141, 705);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.txtplacl);
+            this.Controls.Add(this.txtmodcl);
+            this.Controls.Add(this.txtmarcl);
+            this.Controls.Add(this.txtnomcl);
+            this.Controls.Add(this.txttelcli);
+            this.Controls.Add(this.txtanocl);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtdoccl);
+            this.Controls.Add(this.txtdircl);
+            this.Controls.Add(this.txtidcl);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -481,7 +392,7 @@
             this.Controls.Add(this.BTNSALIRCLI);
             this.Controls.Add(this.BTNBORRARCLI);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dtgvcli);
             this.Controls.Add(this.BTNEDITARCLI);
             this.Controls.Add(this.BTNAGREGARCLI);
             this.Controls.Add(this.pictureBox1);
@@ -491,7 +402,7 @@
             this.Name = "RegistroCli";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.RegistroCli_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvcli)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -502,7 +413,7 @@
         #endregion
         private System.Windows.Forms.Button BTNAGREGARCLI;
         private System.Windows.Forms.Button BTNEDITARCLI;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dtgvcli;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button BTNBORRARCLI;
         private System.Windows.Forms.Button BTNSALIRCLI;
@@ -512,9 +423,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtidcl;
+        private System.Windows.Forms.TextBox txtdircl;
+        private System.Windows.Forms.TextBox txtdoccl;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnCerrar;
         private System.Windows.Forms.Button button5;
@@ -522,20 +433,11 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Telefono;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Dirección;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Documento;
-        private System.Windows.Forms.DataGridViewTextBoxColumn MarcaVehiculo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ModeloVehiculo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn AnoVehiculo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn PlacaVehiculo;
+        private System.Windows.Forms.TextBox txtanocl;
+        private System.Windows.Forms.TextBox txttelcli;
+        private System.Windows.Forms.TextBox txtnomcl;
+        private System.Windows.Forms.TextBox txtmarcl;
+        private System.Windows.Forms.TextBox txtmodcl;
+        private System.Windows.Forms.TextBox txtplacl;
     }
 }

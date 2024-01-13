@@ -50,6 +50,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.Menuviwe.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -144,6 +145,7 @@
             // Menuviwe
             // 
             this.Menuviwe.BackColor = System.Drawing.Color.DarkGray;
+            this.Menuviwe.Controls.Add(this.button1);
             this.Menuviwe.Controls.Add(this.btnregistrarnu);
             this.Menuviwe.Controls.Add(this.btnreportes);
             this.Menuviwe.Controls.Add(this.btnempleados);
@@ -181,7 +183,7 @@
             this.btnreportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnreportes.Image = ((System.Drawing.Image)(resources.GetObject("btnreportes.Image")));
             this.btnreportes.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnreportes.Location = new System.Drawing.Point(6, 310);
+            this.btnreportes.Location = new System.Drawing.Point(8, 273);
             this.btnreportes.Margin = new System.Windows.Forms.Padding(2);
             this.btnreportes.Name = "btnreportes";
             this.btnreportes.Size = new System.Drawing.Size(111, 37);
@@ -198,7 +200,7 @@
             this.btnempleados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnempleados.Image = ((System.Drawing.Image)(resources.GetObject("btnempleados.Image")));
             this.btnempleados.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnempleados.Location = new System.Drawing.Point(8, 251);
+            this.btnempleados.Location = new System.Drawing.Point(8, 219);
             this.btnempleados.Margin = new System.Windows.Forms.Padding(2);
             this.btnempleados.Name = "btnempleados";
             this.btnempleados.Size = new System.Drawing.Size(111, 37);
@@ -214,7 +216,7 @@
             this.btnclientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnclientes.Image = ((System.Drawing.Image)(resources.GetObject("btnclientes.Image")));
             this.btnclientes.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnclientes.Location = new System.Drawing.Point(8, 185);
+            this.btnclientes.Location = new System.Drawing.Point(8, 161);
             this.btnclientes.Margin = new System.Windows.Forms.Padding(2);
             this.btnclientes.Name = "btnclientes";
             this.btnclientes.Size = new System.Drawing.Size(111, 36);
@@ -291,6 +293,21 @@
             this.pictureBox6.TabIndex = 0;
             this.pictureBox6.TabStop = false;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.Location = new System.Drawing.Point(8, 317);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(111, 37);
+            this.button1.TabIndex = 49;
+            this.button1.Text = "REGISTRO DE VEHICULO";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // MenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -343,5 +360,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Button btnregistrarnu;
+        private System.Windows.Forms.Button button1;
     }
 }

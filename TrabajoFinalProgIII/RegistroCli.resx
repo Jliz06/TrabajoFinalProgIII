@@ -121,7 +121,7 @@
   <data name="BTNAGREGARCLI.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAABaRJREFUWEellntMU1ccxzHLXtl/S7Zk0U2Hj8GYjyEq4IspMp3ohoIoMNeGoS7T
+        vgAADr4B6kKxwAAABaRJREFUWEellntMU1ccxzHLXtl/S7Zk0U2Hj8GYjyEq4IspMp3ohoIoMNeGoS7T
         aMYyo4AWCY+KFSjvAS0tfdECFaogImBB5WEpb4RhMtlD4wPPkPkakN9+9/ZQU7Rg6Tf55Jx7zu/+vt97
         2vTWYVxBRX2O3JLfVJuyLtUeKDLUAsC0OVbeXuudXl27W92lDVFf5y7NNrxObawrWNN7Nay0HzZmVMMP
         hQ3YxyTfzIvglXKeJVV/na5Orgidka3fc6YHQjS9DC0hxTfep1Yv167CbhKq7YX1KRUQJqujrQB8hBXg
@@ -157,7 +157,7 @@
         WEL4QrjXkAMKPyk9XuF3xeky21RNtxEJjQu7hb3pOo7XsZYxcsJDwr5cdk2rnkfdxJnML4SVLr0LkxBT
         BPEywwTjDDPAqIzD+AnQJzMa5AfK+fMUJFeTUWcDg1XSZCjSK+qaVE+KT4melJaVCDH1B3/f1kwNBio7
         OIPQ8mZZn93g2IXSjmX9nFhW6RTsr3Cdr+UXjmHkS/SdmuY7AtcWXN7UtPgeXG2D51mPGbGyZJduS6Xg
-        4xw6otB5B23LlXerrnP2CJFNmL2Fg0PokXjXyi97CGbRgpD8uwAAAAlwSFlzAAALDwAACw8BkvkDpQAA
+        4xw6otB5B23LlXerrnP2CJFNmL2Fg0PokXjXyi97CGbRgpD8uwAAAAlwSFlzAAALDAAACwwBP0AiyAAA
         AAd0SU1FB+UCDBICAnnRuPkAAAnnSURBVFhHzZbZrxv1HcXnAVSQWoT61FZIldqHPiQPqC2FUIJp1SJR
         VALdaN8KLZtU3qpW6h+AKrYSpSQsgSASAgRCQkLukpvcm7svvte+3u2xPbZnvI33dTy2x3N6fmMnqVDL
         MyOd+5s7nvHnfLffWPrSHQCu6hbqdtu2XbY9um8se7JePf9i8XkX9f2RZd26e2VV0tPahPJ/Dj4k2SP7
@@ -203,37 +203,10 @@
         elUzc+KevSzlHvEMod+9fPb8N88dP3HjxU8+nXz7l+qQpP8A0XIx+u4qYnQAAAAASUVORK5CYII=
 </value>
   </data>
-  <metadata name="ID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Nombre.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Telefono.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Dirección.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Documento.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="MarcaVehiculo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="ModeloVehiculo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="AnoVehiculo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="PlacaVehiculo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="BTNBORRARCLI.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAACt1JREFUWEfdV31w0+UdR3Eoc0OPed4AN7adk+nmlOEbiiIiOEGG7I5TD7CAiIgC
+        vgAADr4B6kKxwAAACt1JREFUWEfdV31w0+UdR3Eoc0OPed4AN7adk+nmlOEbiiIiOEGG7I5TD7CAiIgC
         Q6GKUgpYoKGUtrSltFCapCUJadI2SfPSvDTvr02atyZtGtK0tIXS0vKmImJ/n31/sXpXgdvt9t++d597
         csnv93w+z/f1yZj/G5N7vT8f+fi/WSAQuN9gMLygUqmWqdXqdKPVka1Wa4q1Wo1Qo9HIFAqFWiKRGLhc
         rqm4uNhyuLTMXC3XNgrrGga2bElX7Ny1S7hmzdrijRs3ZmdmZqYXFBQso+dfaGhouH+E4uYmFosf5fP5
