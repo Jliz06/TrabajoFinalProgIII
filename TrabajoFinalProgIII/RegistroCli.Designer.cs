@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegistroCli));
-            this.BTNAGREGARCLI = new System.Windows.Forms.Button();
-            this.BTNEDITARCLI = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -42,9 +40,7 @@
             this.AnoVehiculo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PlacaVehiculo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label5 = new System.Windows.Forms.Label();
-            this.BTNBORRARCLI = new System.Windows.Forms.Button();
             this.BTNSALIRCLI = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -54,8 +50,6 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.btnCerrar = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -66,39 +60,16 @@
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.btnCerrar = new System.Windows.Forms.Button();
+            this.BTNBORRARCLI = new System.Windows.Forms.Button();
+            this.BTNEDITARCLI = new System.Windows.Forms.Button();
+            this.BTNAGREGARCLI = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // BTNAGREGARCLI
-            // 
-            this.BTNAGREGARCLI.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNAGREGARCLI.Image = ((System.Drawing.Image)(resources.GetObject("BTNAGREGARCLI.Image")));
-            this.BTNAGREGARCLI.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BTNAGREGARCLI.Location = new System.Drawing.Point(860, 239);
-            this.BTNAGREGARCLI.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.BTNAGREGARCLI.Name = "BTNAGREGARCLI";
-            this.BTNAGREGARCLI.Size = new System.Drawing.Size(125, 65);
-            this.BTNAGREGARCLI.TabIndex = 3;
-            this.BTNAGREGARCLI.Text = "Agregar";
-            this.BTNAGREGARCLI.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTNAGREGARCLI.UseVisualStyleBackColor = true;
-            // 
-            // BTNEDITARCLI
-            // 
-            this.BTNEDITARCLI.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNEDITARCLI.Image = ((System.Drawing.Image)(resources.GetObject("BTNEDITARCLI.Image")));
-            this.BTNEDITARCLI.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BTNEDITARCLI.Location = new System.Drawing.Point(860, 336);
-            this.BTNEDITARCLI.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.BTNEDITARCLI.Name = "BTNEDITARCLI";
-            this.BTNEDITARCLI.Size = new System.Drawing.Size(125, 65);
-            this.BTNEDITARCLI.TabIndex = 4;
-            this.BTNEDITARCLI.Text = "Editar";
-            this.BTNEDITARCLI.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTNEDITARCLI.UseVisualStyleBackColor = true;
-            this.BTNEDITARCLI.Click += new System.EventHandler(this.button2_Click);
             // 
             // dataGridView1
             // 
@@ -209,20 +180,6 @@
             this.label5.Text = "AGREGAR CLIENTE";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
-            // BTNBORRARCLI
-            // 
-            this.BTNBORRARCLI.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNBORRARCLI.Image = ((System.Drawing.Image)(resources.GetObject("BTNBORRARCLI.Image")));
-            this.BTNBORRARCLI.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BTNBORRARCLI.Location = new System.Drawing.Point(1011, 239);
-            this.BTNBORRARCLI.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.BTNBORRARCLI.Name = "BTNBORRARCLI";
-            this.BTNBORRARCLI.Size = new System.Drawing.Size(125, 65);
-            this.BTNBORRARCLI.TabIndex = 13;
-            this.BTNBORRARCLI.Text = "Borrar";
-            this.BTNBORRARCLI.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTNBORRARCLI.UseVisualStyleBackColor = true;
-            // 
             // BTNSALIRCLI
             // 
             this.BTNSALIRCLI.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -234,18 +191,6 @@
             this.BTNSALIRCLI.Text = "Salir";
             this.BTNSALIRCLI.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BTNSALIRCLI.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(887, 55);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(242, 160);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 15;
-            this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
@@ -332,37 +277,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1141, 49);
             this.panel1.TabIndex = 27;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.IndianRed;
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.Location = new System.Drawing.Point(947, 4);
-            this.button5.Margin = new System.Windows.Forms.Padding(4);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(82, 41);
-            this.button5.TabIndex = 28;
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // btnCerrar
-            // 
-            this.btnCerrar.BackColor = System.Drawing.Color.IndianRed;
-            this.btnCerrar.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnCerrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.btnCerrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Image")));
-            this.btnCerrar.Location = new System.Drawing.Point(1051, 2);
-            this.btnCerrar.Margin = new System.Windows.Forms.Padding(6);
-            this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(85, 44);
-            this.btnCerrar.TabIndex = 1;
-            this.btnCerrar.UseVisualStyleBackColor = false;
-            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // label7
             // 
@@ -453,6 +367,92 @@
             this.textBox11.Size = new System.Drawing.Size(188, 34);
             this.textBox11.TabIndex = 37;
             // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.IndianRed;
+            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
+            this.button5.Location = new System.Drawing.Point(947, 4);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(82, 41);
+            this.button5.TabIndex = 28;
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // btnCerrar
+            // 
+            this.btnCerrar.BackColor = System.Drawing.Color.IndianRed;
+            this.btnCerrar.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnCerrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btnCerrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Image")));
+            this.btnCerrar.Location = new System.Drawing.Point(1051, 2);
+            this.btnCerrar.Margin = new System.Windows.Forms.Padding(6);
+            this.btnCerrar.Name = "btnCerrar";
+            this.btnCerrar.Size = new System.Drawing.Size(85, 44);
+            this.btnCerrar.TabIndex = 1;
+            this.btnCerrar.UseVisualStyleBackColor = false;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
+            // 
+            // BTNBORRARCLI
+            // 
+            this.BTNBORRARCLI.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTNBORRARCLI.Image = ((System.Drawing.Image)(resources.GetObject("BTNBORRARCLI.Image")));
+            this.BTNBORRARCLI.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BTNBORRARCLI.Location = new System.Drawing.Point(1011, 239);
+            this.BTNBORRARCLI.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.BTNBORRARCLI.Name = "BTNBORRARCLI";
+            this.BTNBORRARCLI.Size = new System.Drawing.Size(125, 65);
+            this.BTNBORRARCLI.TabIndex = 13;
+            this.BTNBORRARCLI.Text = "Borrar";
+            this.BTNBORRARCLI.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BTNBORRARCLI.UseVisualStyleBackColor = true;
+            // 
+            // BTNEDITARCLI
+            // 
+            this.BTNEDITARCLI.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTNEDITARCLI.Image = ((System.Drawing.Image)(resources.GetObject("BTNEDITARCLI.Image")));
+            this.BTNEDITARCLI.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BTNEDITARCLI.Location = new System.Drawing.Point(860, 336);
+            this.BTNEDITARCLI.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.BTNEDITARCLI.Name = "BTNEDITARCLI";
+            this.BTNEDITARCLI.Size = new System.Drawing.Size(125, 65);
+            this.BTNEDITARCLI.TabIndex = 4;
+            this.BTNEDITARCLI.Text = "Editar";
+            this.BTNEDITARCLI.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BTNEDITARCLI.UseVisualStyleBackColor = true;
+            this.BTNEDITARCLI.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // BTNAGREGARCLI
+            // 
+            this.BTNAGREGARCLI.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTNAGREGARCLI.Image = ((System.Drawing.Image)(resources.GetObject("BTNAGREGARCLI.Image")));
+            this.BTNAGREGARCLI.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BTNAGREGARCLI.Location = new System.Drawing.Point(860, 239);
+            this.BTNAGREGARCLI.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.BTNAGREGARCLI.Name = "BTNAGREGARCLI";
+            this.BTNAGREGARCLI.Size = new System.Drawing.Size(125, 65);
+            this.BTNAGREGARCLI.TabIndex = 3;
+            this.BTNAGREGARCLI.Text = "Agregar";
+            this.BTNAGREGARCLI.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BTNAGREGARCLI.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(887, 55);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(242, 160);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 15;
+            this.pictureBox1.TabStop = false;
+            // 
             // RegistroCli
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -492,8 +492,8 @@
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.RegistroCli_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
