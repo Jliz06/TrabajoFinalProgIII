@@ -54,9 +54,9 @@
             this.panel1.Controls.Add(this.btnCerrar);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(6);
+            this.panel1.Margin = new System.Windows.Forms.Padding(9, 9, 9, 9);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(815, 49);
+            this.panel1.Size = new System.Drawing.Size(1222, 75);
             this.panel1.TabIndex = 28;
             // 
             // button5
@@ -67,10 +67,10 @@
             this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.Location = new System.Drawing.Point(710, 3);
-            this.button5.Margin = new System.Windows.Forms.Padding(4);
+            this.button5.Location = new System.Drawing.Point(1065, 5);
+            this.button5.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(43, 41);
+            this.button5.Size = new System.Drawing.Size(64, 63);
             this.button5.TabIndex = 28;
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
@@ -83,10 +83,10 @@
             this.btnCerrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Image")));
-            this.btnCerrar.Location = new System.Drawing.Point(763, 3);
-            this.btnCerrar.Margin = new System.Windows.Forms.Padding(6);
+            this.btnCerrar.Location = new System.Drawing.Point(1144, 5);
+            this.btnCerrar.Margin = new System.Windows.Forms.Padding(9, 9, 9, 9);
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(43, 40);
+            this.btnCerrar.Size = new System.Drawing.Size(64, 62);
             this.btnCerrar.TabIndex = 1;
             this.btnCerrar.UseVisualStyleBackColor = false;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
@@ -97,9 +97,10 @@
             this.label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label5.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(398, 100);
+            this.label5.Location = new System.Drawing.Point(597, 154);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(246, 30);
+            this.label5.Size = new System.Drawing.Size(374, 44);
             this.label5.TabIndex = 29;
             this.label5.Text = "REPORTAR VEHICULO";
             // 
@@ -107,9 +108,10 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(12, 199);
+            this.label7.Location = new System.Drawing.Point(18, 306);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(80, 19);
+            this.label7.Size = new System.Drawing.Size(124, 27);
             this.label7.TabIndex = 36;
             this.label7.Text = "ID CLIENTE";
             // 
@@ -117,27 +119,31 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(8, 270);
+            this.label1.Location = new System.Drawing.Point(12, 415);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(107, 19);
+            this.label1.Size = new System.Drawing.Size(159, 27);
             this.label1.TabIndex = 44;
             this.label1.Text = "Observaciones";
             // 
             // txtObservacionesveh
             // 
-            this.txtObservacionesveh.Location = new System.Drawing.Point(12, 305);
+            this.txtObservacionesveh.Location = new System.Drawing.Point(18, 469);
+            this.txtObservacionesveh.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtObservacionesveh.Multiline = true;
             this.txtObservacionesveh.Name = "txtObservacionesveh";
-            this.txtObservacionesveh.Size = new System.Drawing.Size(217, 135);
+            this.txtObservacionesveh.Size = new System.Drawing.Size(324, 206);
             this.txtObservacionesveh.TabIndex = 45;
             // 
             // dataGridView1
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(259, 199);
+            this.dataGridView1.Location = new System.Drawing.Point(388, 306);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(547, 259);
+            this.dataGridView1.RowHeadersWidth = 62;
+            this.dataGridView1.Size = new System.Drawing.Size(820, 398);
             this.dataGridView1.TabIndex = 46;
             // 
             // pictureBox1
@@ -145,9 +151,10 @@
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 58);
+            this.pictureBox1.Location = new System.Drawing.Point(18, 89);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(181, 111);
+            this.pictureBox1.Size = new System.Drawing.Size(270, 169);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 47;
             this.pictureBox1.TabStop = false;
@@ -157,10 +164,10 @@
             this.BTNreportarveh.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTNreportarveh.Image = ((System.Drawing.Image)(resources.GetObject("BTNreportarveh.Image")));
             this.BTNreportarveh.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BTNreportarveh.Location = new System.Drawing.Point(259, 465);
-            this.BTNreportarveh.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.BTNreportarveh.Location = new System.Drawing.Point(388, 715);
+            this.BTNreportarveh.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.BTNreportarveh.Name = "BTNreportarveh";
-            this.BTNreportarveh.Size = new System.Drawing.Size(117, 39);
+            this.BTNreportarveh.Size = new System.Drawing.Size(176, 60);
             this.BTNreportarveh.TabIndex = 48;
             this.BTNreportarveh.Text = "REPORTAR";
             this.BTNreportarveh.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -172,10 +179,10 @@
             this.BTNEDITARveh.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTNEDITARveh.Image = ((System.Drawing.Image)(resources.GetObject("BTNEDITARveh.Image")));
             this.BTNEDITARveh.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BTNEDITARveh.Location = new System.Drawing.Point(565, 465);
-            this.BTNEDITARveh.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.BTNEDITARveh.Location = new System.Drawing.Point(848, 715);
+            this.BTNEDITARveh.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.BTNEDITARveh.Name = "BTNEDITARveh";
-            this.BTNEDITARveh.Size = new System.Drawing.Size(102, 39);
+            this.BTNEDITARveh.Size = new System.Drawing.Size(153, 60);
             this.BTNEDITARveh.TabIndex = 50;
             this.BTNEDITARveh.Text = "Editar";
             this.BTNEDITARveh.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -183,10 +190,11 @@
             // 
             // txtidcliveh
             // 
-            this.txtidcliveh.Location = new System.Drawing.Point(98, 193);
+            this.txtidcliveh.Location = new System.Drawing.Point(147, 297);
+            this.txtidcliveh.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtidcliveh.Multiline = true;
             this.txtidcliveh.Name = "txtidcliveh";
-            this.txtidcliveh.Size = new System.Drawing.Size(76, 27);
+            this.txtidcliveh.Size = new System.Drawing.Size(112, 39);
             this.txtidcliveh.TabIndex = 52;
             // 
             // BTNBORRAveh
@@ -194,21 +202,22 @@
             this.BTNBORRAveh.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTNBORRAveh.Image = ((System.Drawing.Image)(resources.GetObject("BTNBORRAveh.Image")));
             this.BTNBORRAveh.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BTNBORRAveh.Location = new System.Drawing.Point(413, 465);
-            this.BTNBORRAveh.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.BTNBORRAveh.Location = new System.Drawing.Point(620, 715);
+            this.BTNBORRAveh.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.BTNBORRAveh.Name = "BTNBORRAveh";
-            this.BTNBORRAveh.Size = new System.Drawing.Size(102, 39);
+            this.BTNBORRAveh.Size = new System.Drawing.Size(153, 60);
             this.BTNBORRAveh.TabIndex = 49;
             this.BTNBORRAveh.Text = "Borrar";
             this.BTNBORRAveh.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BTNBORRAveh.UseVisualStyleBackColor = true;
+            this.BTNBORRAveh.Click += new System.EventHandler(this.BTNBORRAveh_Click);
             // 
             // RegistroVehiculo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(815, 515);
+            this.ClientSize = new System.Drawing.Size(1222, 792);
             this.Controls.Add(this.txtidcliveh);
             this.Controls.Add(this.BTNEDITARveh);
             this.Controls.Add(this.BTNBORRAveh);
@@ -221,6 +230,7 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "RegistroVehiculo";
             this.Text = "RegistroVehiculo";
             this.panel1.ResumeLayout(false);
