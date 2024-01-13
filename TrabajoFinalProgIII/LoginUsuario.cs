@@ -98,5 +98,11 @@ namespace TrabajoFinalProgIII
             Form form = new NuevoUsuario();
             form.Show();
         }
+
+        private void btnLimpiarlg_Click(object sender, EventArgs e)
+        {
+            txtBoxContrasenalg.Text = "'";
+            txtBoxUsuariolg.Text = "'";
+        }
     }
 }
