@@ -113,7 +113,7 @@
             this.label5.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(351, 57);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(163, 24);
+            this.label5.Size = new System.Drawing.Size(243, 33);
             this.label5.TabIndex = 12;
             this.label5.Text = "AGREGAR CLIENTE";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -131,6 +131,7 @@
             this.BTNBORRARCLI.Text = "Borrar";
             this.BTNBORRARCLI.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BTNBORRARCLI.UseVisualStyleBackColor = true;
+            this.BTNBORRARCLI.Click += new System.EventHandler(this.BTNBORRARCLI_Click);
             // 
             // pictureBox1
             // 
@@ -150,7 +151,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 112);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(23, 19);
+            this.label1.Size = new System.Drawing.Size(35, 27);
             this.label1.TabIndex = 16;
             this.label1.Text = "ID";
             // 
@@ -160,7 +161,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(12, 239);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(68, 19);
+            this.label2.Size = new System.Drawing.Size(102, 27);
             this.label2.TabIndex = 17;
             this.label2.Text = "Telefono";
             // 
@@ -170,7 +171,7 @@
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(12, 174);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 19);
+            this.label3.Size = new System.Drawing.Size(95, 27);
             this.label3.TabIndex = 18;
             this.label3.Text = "Nombre";
             // 
@@ -180,7 +181,7 @@
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(442, 178);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(72, 19);
+            this.label4.Size = new System.Drawing.Size(106, 27);
             this.label4.TabIndex = 19;
             this.label4.Text = "Direccion";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -191,7 +192,7 @@
             this.label6.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(442, 236);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(86, 19);
+            this.label6.Size = new System.Drawing.Size(130, 27);
             this.label6.TabIndex = 20;
             this.label6.Text = "Documento";
             // 
@@ -200,7 +201,7 @@
             this.txtidcl.Location = new System.Drawing.Point(165, 109);
             this.txtidcl.Name = "txtidcl";
             this.txtidcl.ReadOnly = true;
-            this.txtidcl.Size = new System.Drawing.Size(67, 23);
+            this.txtidcl.Size = new System.Drawing.Size(67, 31);
             this.txtidcl.TabIndex = 1;
             // 
             // txtdircl
@@ -268,7 +269,7 @@
             this.label7.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(17, 296);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(112, 19);
+            this.label7.Size = new System.Drawing.Size(168, 27);
             this.label7.TabIndex = 28;
             this.label7.Text = "Marca Vehiculo";
             // 
@@ -278,7 +279,7 @@
             this.label8.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(442, 305);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(97, 19);
+            this.label8.Size = new System.Drawing.Size(146, 27);
             this.label8.TabIndex = 29;
             this.label8.Text = "Ano Vehiculo";
             // 
@@ -288,7 +289,7 @@
             this.label9.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(12, 370);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(122, 19);
+            this.label9.Size = new System.Drawing.Size(183, 27);
             this.label9.TabIndex = 30;
             this.label9.Text = "Modelo Vehiculo";
             // 
@@ -298,7 +299,7 @@
             this.label10.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(440, 363);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(106, 19);
+            this.label10.Size = new System.Drawing.Size(158, 27);
             this.label10.TabIndex = 31;
             this.label10.Text = "Placa Vehiculo";
             // 
@@ -353,7 +354,7 @@
             // 
             // RegistroCli
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1141, 705);

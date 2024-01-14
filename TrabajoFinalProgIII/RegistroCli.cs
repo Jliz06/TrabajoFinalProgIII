@@ -18,11 +18,13 @@ namespace TrabajoFinalProgIII
             InitializeComponent();
 
             CargarDatos();
+
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
 
+         
         }
 
         private void homeToolStripMenuItem_Click(object sender, EventArgs e)
@@ -131,5 +133,52 @@ namespace TrabajoFinalProgIII
             this.Hide();
         
     }
+
+        private void BTNBORRARCLI_Click(object sender, EventArgs e)
+        {
+            // Obtener el valor del TextBox que contiene el ID que deseas borrar
+            int idABorrar;
+            if (int.TryParse(txtidcl.Text, out idABorrar))
+            {
+                // Crear la conexión
+                using (SqlConnection conexion = new SqlConnection(@"Data Source = Lenovo\SQLEXPRESS; Initial Catalog = MECHANIC-SOFT; Integrated Security = True"))
+                {
+                    try
+                    {
+                        // Abrir la conexión
+                        conexion.Open();
+
+                        // Crear el comando SQL para borrar el registro
+                        string consulta = "DELETE FROM CLIENTE WHERE Id = @Id";
+                        using (SqlCommand comando = new SqlCommand(consulta, conexion))
+                        {
+                            // Agregar el parámetro
+                            comando.Parameters.AddWithValue("@Id", idABorrar);
+
+                            // Ejecutar la consulta
+                            int filasAfectadas = comando.ExecuteNonQuery();
+
+                            // Verificar si se borró el registro
+                            if (filasAfectadas > 0)
+                            {
+                                MessageBox.Show("Registro borrado correctamente.");
+                            }
+                            else
+                            {
+                                MessageBox.Show("No se encontró el registro con ese ID.");
+                            }
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Error al intentar borrar el registro: " + ex.Message);
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Ingrese un ID válido.");
+            }
+        }
     }
 }
