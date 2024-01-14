@@ -62,11 +62,11 @@
             this.label1.AutoSize = true;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(227, 35);
+            this.label1.Location = new System.Drawing.Point(177, 39);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(106, 22);
+            this.label1.Size = new System.Drawing.Size(204, 22);
             this.label1.TabIndex = 1;
-            this.label1.Text = "CONULTAR";
+            this.label1.Text = "CONSULTAR TRABAJO";
             // 
             // label2
             // 
@@ -82,7 +82,7 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(89, 70);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 3;
             // 
             // dataGridView1
